@@ -7,7 +7,7 @@ import { ArrowRightIcon, PhoneCallIcon } from "lucide-react";
 export function HeroSection() {
   return (
     <section>
-      <div className="relative flex flex-col items-center justify-center gap-5 px-4 py-12 md:px-4 md:py-24 lg:py-28">
+      <div className="relative flex flex-col items-center justify-center gap-5 px-4 py-8 md:px-4 md:py-20 lg:py-24">
         {/* X Faded Borders & Shades */}
         <div
           aria-hidden="true"
@@ -15,7 +15,7 @@ export function HeroSection() {
         >
           <div
             className={cn(
-              "absolute -inset-x-20 inset-y-0 z-0 rounded-full",
+              "absolute -inset-x-20 inset-y-0 z-0 rounded-full hidden",
               "bg-[radial-gradient(ellipse_at_center,theme(--color-foreground/.1),transparent,transparent)]",
               "blur-[50px]",
             )}
@@ -46,7 +46,7 @@ export function HeroSection() {
 
         <h1
           className={cn(
-            "max-w-2xl text-balance text-center text-3xl text-foreground md:text-5xl lg:text-6xl",
+            "max-w-2xl text-balance text-center text-3xl text-foreground md:text-5xl lg:text-6xl font-serif tracking-tight",
             "fade-in slide-in-from-bottom-10 animate-in fill-mode-backwards delay-100 duration-500 ease-out",
           )}
         >
