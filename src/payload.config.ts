@@ -46,7 +46,7 @@ export default buildConfig({
   plugins: [
     mcpPlugin(options),
     payloadMcpOAuth({
-      issuer: process.env.VERCEL_URL || "http://localhost:3000",
+      issuer: `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`,
       mcpPluginOptions: options,
     }),
   ],
