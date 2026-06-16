@@ -53,13 +53,13 @@ function PostCard({
   return (
     <a
       className={cn(
-        "group flex h-24 w-full flex-col justify-center gap-y-1 p-4 hover:cursor-pointer hover:bg-accent/30 active:bg-accent dark:active:bg-accent/50",
+        "group flex h-32 w-full flex-col justify-center gap-y-1 p-4 hover:cursor-pointer hover:bg-accent/30 active:bg-accent dark:active:bg-accent/50",
         className,
       )}
       {...props}
     >
       <div className="relative flex items-end justify-center gap-2">
-        <h3 className="whitespace-nowrap font-medium text-foreground text-lg md:text-xl">
+        <h3 className="truncate font-medium text-foreground text-lg md:text-xl">
           {title}
         </h3>
         <span className="mb-[6px] w-full border-b-2 border-dashed" />
@@ -67,7 +67,7 @@ function PostCard({
           {date}
         </span>
       </div>
-      <div className="max-w-sm text-muted-foreground text-sm group-hover:text-foreground md:max-w-full md:text-base">
+      <div className="line-clamp-2 text-muted-foreground text-sm group-hover:text-foreground md:text-base">
         {description}
       </div>
     </a>

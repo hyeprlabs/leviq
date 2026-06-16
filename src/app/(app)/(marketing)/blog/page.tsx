@@ -16,13 +16,6 @@ export default async function Page() {
     collection: "posts",
     sort: "-createdAt",
     limit: 50,
-    select: {
-      title: true,
-      slug: true,
-      excerpt: true,
-      publishedAt: true,
-      createdAt: true,
-    },
   });
 
   return (
