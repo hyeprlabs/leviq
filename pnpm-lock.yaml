@@ -25,6 +25,9 @@ importers:
 
   .:
     dependencies:
+      '@brainwebuk/payload-plugin-mcp-oauth':
+        specifier: ^0.3.5
+        version: 0.3.5(@payloadcms/plugin-mcp@3.85.1(next@16.2.9(@babel/core@7.29.7)(babel-plugin-macros@3.1.0)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(sass@1.77.4))(payload@3.85.1(graphql@17.0.1)(typescript@6.0.3)))(next@16.2.9(@babel/core@7.29.7)(babel-plugin-macros@3.1.0)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(sass@1.77.4))(payload@3.85.1(graphql@17.0.1)(typescript@6.0.3))(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       '@clerk/nextjs':
         specifier: ^7.5.3
         version: 7.5.3(next@16.2.9(@babel/core@7.29.7)(babel-plugin-macros@3.1.0)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(sass@1.77.4))(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
@@ -250,6 +253,18 @@ packages:
 
   '@borewit/text-codec@0.2.2':
     resolution: {integrity: sha512-DDaRehssg1aNrH4+2hnj1B7vnUGEjU6OIlyRdkMd0aUdIUvKXrJfXsy8LVtXAy7DRvYVluWbMspsRhz2lcW0mQ==}
+
+  '@brainwebuk/payload-plugin-mcp-oauth@0.3.5':
+    resolution: {integrity: sha512-ywXvYh+mB+oq73spi/bTINq8RbeHHLqPl7xWejTCUQbK7VocerrJRjjhB3JeT+rzVwgRHb20kpJwgeKssuDkOg==}
+    peerDependencies:
+      '@payloadcms/plugin-mcp': ^3.0.0
+      next: ^14.0.0 || ^15.0.0 || ^16.0.0
+      payload: ^3.0.0
+      react: ^18.0.0 || ^19.0.0
+      react-dom: ^18.0.0 || ^19.0.0
+    peerDependenciesMeta:
+      next:
+        optional: true
 
   '@clerk/backend@3.7.1':
     resolution: {integrity: sha512-2CeOUZJQ0aKZ51fdaoCEh8ffOC7KD5w9Q8HZXw0AnEWuxFiplyyhwDo/ixFWYueQULWOehjzRNR89YEQTwuY0w==}
@@ -5296,6 +5311,15 @@ snapshots:
       '@babel/helper-validator-identifier': 7.29.7
 
   '@borewit/text-codec@0.2.2': {}
+
+  '@brainwebuk/payload-plugin-mcp-oauth@0.3.5(@payloadcms/plugin-mcp@3.85.1(next@16.2.9(@babel/core@7.29.7)(babel-plugin-macros@3.1.0)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(sass@1.77.4))(payload@3.85.1(graphql@17.0.1)(typescript@6.0.3)))(next@16.2.9(@babel/core@7.29.7)(babel-plugin-macros@3.1.0)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(sass@1.77.4))(payload@3.85.1(graphql@17.0.1)(typescript@6.0.3))(react-dom@19.2.7(react@19.2.7))(react@19.2.7)':
+    dependencies:
+      '@payloadcms/plugin-mcp': 3.85.1(next@16.2.9(@babel/core@7.29.7)(babel-plugin-macros@3.1.0)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(sass@1.77.4))(payload@3.85.1(graphql@17.0.1)(typescript@6.0.3))
+      payload: 3.85.1(graphql@17.0.1)(typescript@6.0.3)
+      react: 19.2.7
+      react-dom: 19.2.7(react@19.2.7)
+    optionalDependencies:
+      next: 16.2.9(@babel/core@7.29.7)(babel-plugin-macros@3.1.0)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(sass@1.77.4)
 
   '@clerk/backend@3.7.1(react-dom@19.2.7(react@19.2.7))(react@19.2.7)':
     dependencies:

@@ -5,7 +5,8 @@ import { buildConfig } from "payload";
 import { fileURLToPath } from "url";
 
 // Plugins
-import { mcpPlugin } from "@payloadcms/plugin-mcp";
+import { mcpPlugin, MCPPluginConfig } from "@payloadcms/plugin-mcp";
+import { payloadMcpOAuth } from "@brainwebuk/payload-plugin-mcp-oauth";
 
 import { Users } from "./collections/Users";
 import { Media } from "./collections/Media";
@@ -13,6 +14,16 @@ import { Posts } from "./collections/Posts";
 
 const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
+
+// Assign ONCE to a const and reuse the same reference in both calls. ⚠️
+const options: MCPPluginConfig = {
+  collections: {
+    posts: {
+      description: "Blog posts for my /blog Page.",
+      enabled: true,
+    },
+  },
+};
 
 export default buildConfig({
   admin: {
@@ -33,12 +44,10 @@ export default buildConfig({
     },
   }),
   plugins: [
-    mcpPlugin({
-      collections: {
-        posts: {
-          enabled: true,
-        },
-      },
+    mcpPlugin(options),
+    payloadMcpOAuth({
+      issuer: process.env.VERCEL_URL || "http://localhost:3000",
+      mcpPluginOptions: options,
     }),
   ],
 });

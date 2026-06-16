@@ -12,6 +12,7 @@
     "generate:types": "PAYLOAD_CONFIG_PATH=src/payload.config.ts payload generate:types"
   },
   "dependencies": {
+    "@brainwebuk/payload-plugin-mcp-oauth": "^0.3.5",
     "@clerk/nextjs": "^7.5.3",
     "@payloadcms/db-postgres": "^3.85.1",
     "@payloadcms/next": "^3.85.1",

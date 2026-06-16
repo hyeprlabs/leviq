@@ -1,6 +1,14 @@
-import { clerkMiddleware } from "@clerk/nextjs/server";
+import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
+import { createMcpOAuthMiddleware } from "@brainwebuk/payload-plugin-mcp-oauth/middleware";
 
-export default clerkMiddleware();
+const isProtectedRoute = createRouteMatcher(["/dashboard(.*)", "/forum(.*)"]);
+
+const mcpOAuth = createMcpOAuthMiddleware(); // accepts { apiRoute, mcpEndpointPath, ... }
+
+export default clerkMiddleware(async (auth, req) => {
+  if (isProtectedRoute(req)) await auth.protect();
+  return mcpOAuth(req);
+});
 
 export const config = {
   matcher: [
@@ -10,5 +18,8 @@ export const config = {
     "/(api|trpc)(.*)",
     // Always run for Clerk-specific frontend API routes
     "/__clerk/(.*)",
+    // MCP Oauth
+    "/.well-known/oauth-authorization-server",
+    "/.well-known/oauth-protected-resource",
   ],
 };
