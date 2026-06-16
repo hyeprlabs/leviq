@@ -246,18 +246,6 @@ export interface PayloadMcpApiKey {
      * Allow clients to find posts.
      */
     find?: boolean | null;
-    /**
-     * Allow clients to create posts.
-     */
-    create?: boolean | null;
-    /**
-     * Allow clients to update posts.
-     */
-    update?: boolean | null;
-    /**
-     * Allow clients to delete posts.
-     */
-    delete?: boolean | null;
   };
   updatedAt: string;
   createdAt: string;
@@ -540,9 +528,6 @@ export interface PayloadMcpApiKeysSelect<T extends boolean = true> {
     | T
     | {
         find?: T;
-        create?: T;
-        update?: T;
-        delete?: T;
       };
   updatedAt?: T;
   createdAt?: T;

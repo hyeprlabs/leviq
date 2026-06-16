@@ -20,7 +20,7 @@ const options: MCPPluginConfig = {
   collections: {
     posts: {
       description: "Blog posts for my /blog Page.",
-      enabled: true,
+      enabled: { find: true },
     },
   },
 };
