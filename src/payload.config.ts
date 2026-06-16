@@ -4,6 +4,9 @@ import path from "path";
 import { buildConfig } from "payload";
 import { fileURLToPath } from "url";
 
+// Plugins
+import { mcpPlugin } from "@payloadcms/plugin-mcp";
+
 import { Users } from "./collections/Users";
 import { Media } from "./collections/Media";
 import { Posts } from "./collections/Posts";
@@ -29,5 +32,13 @@ export default buildConfig({
       connectionString: process.env.DATABASE_URL || "",
     },
   }),
-  plugins: [],
+  plugins: [
+    mcpPlugin({
+      collections: {
+        [Posts.slug]: {
+          enabled: true,
+        },
+      },
+    }),
+  ],
 });
