@@ -4,6 +4,7 @@ import { Logo } from "@/components/logo";
 import { useScroll } from "@/hooks/use-scroll";
 import { Button } from "@/components/ui/button";
 import { MobileNav } from "@/components/mobile-nav";
+import { Show, SignInButton, SignUpButton, UserButton } from "@clerk/nextjs";
 
 export const navLinks = [
   {
@@ -55,10 +56,19 @@ export function Header() {
               </Button>
             ))}
           </div>
-          <Button size="sm" variant="outline">
-            Sign In
-          </Button>
-          <Button size="sm">Get Started</Button>
+          <Show when="signed-out">
+            <SignInButton>
+              <Button size="sm" variant="outline">
+                Sign In
+              </Button>
+            </SignInButton>
+            <SignUpButton>
+              <Button size="sm">Get Started</Button>
+            </SignUpButton>
+          </Show>
+          <Show when="signed-in">
+            <UserButton />
+          </Show>
         </div>
         <MobileNav />
       </nav>

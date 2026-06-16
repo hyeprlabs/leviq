@@ -10,6 +10,7 @@
     "prettier": "pnpm exec prettier . --write"
   },
   "dependencies": {
+    "@clerk/nextjs": "^7.5.3",
     "@payloadcms/db-postgres": "^3.85.1",
     "@payloadcms/next": "^3.85.1",
     "@payloadcms/richtext-lexical": "^3.85.1",
