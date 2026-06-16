@@ -10,17 +10,9 @@ export const metadata: Metadata = {
     "Discover the latest trends and insights in the world of AI and technology.",
 };
 
-type Post = {
-  title: string;
-  slug: string;
-  excerpt?: string | null;
-  publishedAt?: string | null;
-  createdAt: string;
-};
-
 export default async function Page() {
   const payload = await getPayload({ config });
-  const { docs } = (await payload.find({
+  const { docs } = await payload.find({
     collection: "posts",
     sort: "-createdAt",
     limit: 50,
@@ -31,7 +23,7 @@ export default async function Page() {
       publishedAt: true,
       createdAt: true,
     },
-  } as never)) as unknown as { docs: Post[] };
+  });
 
   return (
     <>
