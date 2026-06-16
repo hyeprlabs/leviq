@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "prettier": "pnpm exec prettier . --write"
   },
   "dependencies": {
     "@payloadcms/db-postgres": "^3.85.1",
