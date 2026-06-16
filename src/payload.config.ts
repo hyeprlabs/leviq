@@ -35,7 +35,7 @@ export default buildConfig({
   plugins: [
     mcpPlugin({
       collections: {
-        [Posts.slug]: {
+        posts: {
           enabled: true,
         },
       },
