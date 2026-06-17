@@ -70,7 +70,7 @@ export function MobileNav() {
             </div>
             <div className="mt-12 flex flex-col gap-2">
               <Button size="sm" variant="outline" className="w-full">
-                {t("contact")}
+                {t("demo")}
               </Button>
               <CalEmbed>
                 <Button size="sm" className="font-normal w-full">

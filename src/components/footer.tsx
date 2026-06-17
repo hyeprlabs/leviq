@@ -123,7 +123,7 @@ export function Footer() {
       </div>
       <FullWidthDivider />
       <div className="flex items-center justify-center gap-2 py-4">
-        <p className="text-center font-light text-muted-foreground text-sm">
+        <p className="text-center font-mono text-muted-foreground text-sm">
           {t("copyright", { year: new Date().getFullYear() })}
         </p>
       </div>

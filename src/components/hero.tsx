@@ -20,7 +20,7 @@ export function HeroSection() {
         >
           <div
             className={cn(
-              "absolute -inset-x-20 inset-y-0 z-0 rounded-full",
+              "absolute -inset-x-20 inset-y-0 z-0 rounded-full hidden",
               "bg-[radial-gradient(ellipse_at_center,theme(--color-foreground/.1),transparent,transparent)]",
               "blur-[50px]",
             )}
@@ -52,7 +52,7 @@ export function HeroSection() {
         <h1
           className={cn(
             "max-w-2xl text-balance text-center text-3xl text-foreground md:text-5xl lg:text-6xl",
-            "fade-in slide-in-from-bottom-10 animate-in fill-mode-backwards delay-100 duration-500 ease-out",
+            "fade-in slide-in-from-bottom-10 animate-in fill-mode-backwards delay-100 duration-500 ease-out font-serif",
           )}
         >
           {t("heading")}
@@ -68,7 +68,7 @@ export function HeroSection() {
         </p>
 
         <div className="fade-in slide-in-from-bottom-10 flex w-fit animate-in items-center justify-center gap-3 fill-mode-backwards pt-2 delay-300 duration-500 ease-out">
-          <Button variant="outline">{t("contact")}</Button>
+          <Button variant="outline">{t("demo")}</Button>
           <CalEmbed>
             <Button>
               <PhoneCallIcon />

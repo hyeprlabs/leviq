@@ -62,7 +62,7 @@ export function Header() {
             ))}
           </div>
           <Button size="sm" variant="outline">
-            {t("contact")}
+            {t("demo")}
           </Button>
           <CalEmbed>
             <Button size="sm" className="font-normal">
