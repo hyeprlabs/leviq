@@ -27,7 +27,7 @@ export function BlogsSection({ posts }: { posts: Post[] }) {
         {posts.length ? (
           <div className="divide-y">
             {posts.map((post) => (
-              <PostCard {...post} key={post.title} />
+              <PostCard {...post} key={post.href} />
             ))}
           </div>
         ) : (
