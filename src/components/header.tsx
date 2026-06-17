@@ -1,11 +1,12 @@
 "use client";
+
 import { useTranslations } from "next-intl";
 import { cn } from "@/lib/utils";
 import { Logo } from "@/components/logo";
 import { useScroll } from "@/hooks/use-scroll";
 import { Button } from "@/components/ui/button";
 import { MobileNav } from "@/components/mobile-nav";
-import { Show, SignInButton, SignUpButton, UserButton } from "@clerk/nextjs";
+import { PhoneCallIcon } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { CalEmbed } from "@/components/cal-embed";
 
@@ -60,24 +61,15 @@ export function Header() {
               </Button>
             ))}
           </div>
-          <Show when="signed-out">
-            <CalEmbed>
-              <Button size="sm" variant="outline">
-                {t("bookACall")}
-              </Button>
-            </CalEmbed>
-            <SignInButton>
-              <Button size="sm" variant="outline">
-                {t("signIn")}
-              </Button>
-            </SignInButton>
-            <SignUpButton>
-              <Button size="sm">{t("getStarted")}</Button>
-            </SignUpButton>
-          </Show>
-          <Show when="signed-in">
-            <UserButton />
-          </Show>
+          <Button size="sm" variant="outline">
+            {t("contact")}
+          </Button>
+          <CalEmbed>
+            <Button size="sm" className="font-normal">
+              <PhoneCallIcon />
+              {t("bookACall")}
+            </Button>
+          </CalEmbed>
         </div>
         <MobileNav />
       </nav>

@@ -8,6 +8,7 @@ import { Portal, PortalBackdrop } from "@/components/portal";
 import { XIcon, MenuIcon } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { CalEmbed } from "@/components/cal-embed";
+import { PhoneCallIcon } from "lucide-react";
 
 export function MobileNav() {
   const t = useTranslations("Header");
@@ -68,15 +69,15 @@ export function MobileNav() {
               ))}
             </div>
             <div className="mt-12 flex flex-col gap-2">
+              <Button size="sm" variant="outline" className="w-full">
+                {t("contact")}
+              </Button>
               <CalEmbed>
-                <Button className="w-full" variant="outline">
+                <Button size="sm" className="font-normal w-full">
+                  <PhoneCallIcon />
                   {t("bookACall")}
                 </Button>
               </CalEmbed>
-              <Button className="w-full" variant="outline">
-                {t("signIn")}
-              </Button>
-              <Button className="w-full">{t("getStarted")}</Button>
             </div>
           </div>
         </Portal>

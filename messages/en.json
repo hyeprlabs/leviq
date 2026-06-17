@@ -4,15 +4,14 @@
     "accepting": "accepting new client projects",
     "heading": "Building Digital Experiences That Drive Growth",
     "description": "We help brands scale faster through design, development and strategic execution.",
-    "bookCall": "Book a Call",
-    "getStarted": "Get started"
+    "contact": "Contact",
+    "bookCall": "Book a Call"
   },
   "Header": {
     "blog": "Blog",
     "pricing": "Pricing",
     "about": "About",
-    "signIn": "Sign In",
-    "getStarted": "Get Started",
+    "contact": "Contact",
     "bookACall": "Book a Call"
   },
   "Footer": {

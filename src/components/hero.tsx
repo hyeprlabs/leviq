@@ -68,14 +68,13 @@ export function HeroSection() {
         </p>
 
         <div className="fade-in slide-in-from-bottom-10 flex w-fit animate-in items-center justify-center gap-3 fill-mode-backwards pt-2 delay-300 duration-500 ease-out">
+          <Button variant="outline">{t("contact")}</Button>
           <CalEmbed>
-            <Button variant="outline">
-              <PhoneCallIcon data-icon="inline-start" /> {t("bookCall")}
+            <Button>
+              <PhoneCallIcon />
+              {t("bookCall")}
             </Button>
           </CalEmbed>
-          <Button>
-            {t("getStarted")} <ArrowRightIcon data-icon="inline-end" />
-          </Button>
         </div>
       </div>
       <div className="relative">
