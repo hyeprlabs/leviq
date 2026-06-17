@@ -6,6 +6,7 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import { Portal, PortalBackdrop } from "@/components/portal";
 import { XIcon, MenuIcon } from "lucide-react";
+import { Link } from "@/i18n/navigation";
 
 export function MobileNav() {
   const t = useTranslations("Header");
@@ -14,15 +15,15 @@ export function MobileNav() {
   const navLinks = [
     {
       label: t("blog"),
-      href: "/blog",
+      href: "/blog" as const,
     },
     {
       label: t("pricing"),
-      href: "/pricing",
+      href: "/pricing" as const,
     },
     {
       label: t("about"),
-      href: "/about",
+      href: "/about" as const,
     },
   ];
 
@@ -61,7 +62,7 @@ export function MobileNav() {
                   key={link.label}
                   variant="ghost"
                 >
-                  <a href={link.href}>{link.label}</a>
+                  <Link href={link.href}>{link.label}</Link>
                 </Button>
               ))}
             </div>

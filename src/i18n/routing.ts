@@ -8,5 +8,14 @@ export const routing = defineRouting({
     "/leistungen": {
       de: "/services",
     },
+    "/blog": "/blog",
+    "/pricing": {
+      en: "/pricing",
+      de: "/preisgestaltung",
+    },
+    "/about": {
+      en: "/about",
+      de: "/über-uns",
+    },
   },
 });

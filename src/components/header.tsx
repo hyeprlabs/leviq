@@ -6,6 +6,7 @@ import { useScroll } from "@/hooks/use-scroll";
 import { Button } from "@/components/ui/button";
 import { MobileNav } from "@/components/mobile-nav";
 import { Show, SignInButton, SignUpButton, UserButton } from "@clerk/nextjs";
+import { Link } from "@/i18n/navigation";
 
 export function Header() {
   const t = useTranslations("Header");
@@ -14,15 +15,15 @@ export function Header() {
   const navLinks = [
     {
       label: t("blog"),
-      href: "/blog",
+      href: "/blog" as const,
     },
     {
       label: t("pricing"),
-      href: "/pricing",
+      href: "/pricing" as const,
     },
     {
       label: t("about"),
-      href: "/about",
+      href: "/about" as const,
     },
   ];
 
@@ -54,7 +55,7 @@ export function Header() {
           <div>
             {navLinks.map((link) => (
               <Button asChild key={link.label} size="sm" variant="ghost">
-                <a href={link.href}>{link.label}</a>
+                <Link href={link.href}>{link.label}</Link>
               </Button>
             ))}
           </div>
