@@ -1,4 +1,5 @@
 "use client";
+import { useTranslations } from "next-intl";
 import { cn } from "@/lib/utils";
 import { Logo } from "@/components/logo";
 import { useScroll } from "@/hooks/use-scroll";
@@ -6,23 +7,24 @@ import { Button } from "@/components/ui/button";
 import { MobileNav } from "@/components/mobile-nav";
 import { Show, SignInButton, SignUpButton, UserButton } from "@clerk/nextjs";
 
-export const navLinks = [
-  {
-    label: "Features",
-    href: "#",
-  },
-  {
-    label: "Pricing",
-    href: "#",
-  },
-  {
-    label: "About",
-    href: "#",
-  },
-];
-
 export function Header() {
+  const t = useTranslations("Header");
   const scrolled = useScroll(10);
+
+  const navLinks = [
+    {
+      label: t("blog"),
+      href: "/blog",
+    },
+    {
+      label: t("pricing"),
+      href: "/pricing",
+    },
+    {
+      label: t("about"),
+      href: "/about",
+    },
+  ];
 
   return (
     <header
@@ -59,11 +61,11 @@ export function Header() {
           <Show when="signed-out">
             <SignInButton>
               <Button size="sm" variant="outline">
-                Sign In
+                {t("signIn")}
               </Button>
             </SignInButton>
             <SignUpButton>
-              <Button size="sm">Get Started</Button>
+              <Button size="sm">{t("getStarted")}</Button>
             </SignUpButton>
           </Show>
           <Show when="signed-in">

@@ -6,5 +6,32 @@
     "description": "Wir helfen Marken schneller zu wachsen durch Design, Entwicklung und strategische Umsetzung.",
     "bookCall": "Termin buchen",
     "getStarted": "Jetzt starten"
+  },
+  "Header": {
+    "blog": "Blog",
+    "pricing": "Preisgestaltung",
+    "about": "Über uns",
+    "signIn": "Anmelden",
+    "getStarted": "Jetzt starten"
+  },
+  "Footer": {
+    "tagline": "Verschönern Sie Ihre App mit efferd.",
+    "resourcesTitle": "Ressourcen",
+    "companyTitle": "Unternehmen",
+    "resources": {
+      "blog": "Blog",
+      "helpCenter": "Hilfezentrum",
+      "contactSupport": "Support kontaktieren",
+      "community": "Gemeinschaft",
+      "security": "Sicherheit"
+    },
+    "company": {
+      "aboutUs": "Über uns",
+      "careers": "Karrieren",
+      "brandAssets": "Markenressourcen",
+      "privacyPolicy": "Datenschutzrichtlinie",
+      "termsOfService": "Servicebedingungen"
+    },
+    "copyright": "© {year} LevIQ, Alle Rechte vorbehalten"
   }
 }

@@ -1,3 +1,6 @@
+"use client";
+
+import { useTranslations } from "next-intl";
 import { cn } from "@/lib/utils";
 import { GithubIcon } from "@/components/icons/github-icon";
 import { InstagramIcon } from "@/components/icons/instagram-icon";
@@ -7,6 +10,53 @@ import { Button } from "@/components/ui/button";
 import { FullWidthDivider } from "@/components/full-width-divider";
 
 export function Footer() {
+  const t = useTranslations("Footer");
+
+  const company = [
+    {
+      title: t("company.aboutUs"),
+      href: "#",
+    },
+    {
+      title: t("company.careers"),
+      href: "#",
+    },
+    {
+      title: t("company.brandAssets"),
+      href: "#",
+    },
+    {
+      title: t("company.privacyPolicy"),
+      href: "#",
+    },
+    {
+      title: t("company.termsOfService"),
+      href: "#",
+    },
+  ];
+
+  const resources = [
+    {
+      title: t("resources.blog"),
+      href: "#",
+    },
+    {
+      title: t("resources.helpCenter"),
+      href: "#",
+    },
+    {
+      title: t("resources.contactSupport"),
+      href: "#",
+    },
+    {
+      title: t("resources.community"),
+      href: "#",
+    },
+    {
+      title: t("resources.security"),
+      href: "#",
+    },
+  ];
   return (
     <footer
       className={cn(
@@ -21,7 +71,7 @@ export function Footer() {
             <Logo className="h-5" />
           </a>
           <p className="max-w-sm text-balance text-muted-foreground text-sm">
-            Beautify your app with efferd.
+            {t("tagline")}
           </p>
           <div className="flex gap-2 hidden">
             {socialLinks.map((item, index) => (
@@ -39,7 +89,9 @@ export function Footer() {
           </div>
         </div>
         <div className="col-span-3 w-full md:col-span-1">
-          <span className="text-muted-foreground text-xs">Resources</span>
+          <span className="text-muted-foreground text-xs">
+            {t("resourcesTitle")}
+          </span>
           <div className="mt-2 flex flex-col gap-2">
             {resources.map(({ href, title }) => (
               <a
@@ -53,7 +105,9 @@ export function Footer() {
           </div>
         </div>
         <div className="col-span-3 w-full md:col-span-1">
-          <span className="text-muted-foreground text-xs">Company</span>
+          <span className="text-muted-foreground text-xs">
+            {t("companyTitle")}
+          </span>
           <div className="mt-2 flex flex-col gap-2">
             {company.map(({ href, title }) => (
               <a
@@ -70,58 +124,12 @@ export function Footer() {
       <FullWidthDivider />
       <div className="flex items-center justify-center gap-2 py-4">
         <p className="text-center font-light text-muted-foreground text-sm">
-          &copy; {new Date().getFullYear()} efferd, All rights reserved
+          {t("copyright", { year: new Date().getFullYear() })}
         </p>
       </div>
     </footer>
   );
 }
-
-const company = [
-  {
-    title: "About Us",
-    href: "#",
-  },
-  {
-    title: "Careers",
-    href: "#",
-  },
-  {
-    title: "Brand assets",
-    href: "#",
-  },
-  {
-    title: "Privacy Policy",
-    href: "#",
-  },
-  {
-    title: "Terms of Service",
-    href: "#",
-  },
-];
-
-const resources = [
-  {
-    title: "Blog",
-    href: "#",
-  },
-  {
-    title: "Help Center",
-    href: "#",
-  },
-  {
-    title: "Contact Support",
-    href: "#",
-  },
-  {
-    title: "Community",
-    href: "#",
-  },
-  {
-    title: "Security",
-    href: "#",
-  },
-];
 
 const socialLinks = [
   {

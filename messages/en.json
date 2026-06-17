@@ -6,5 +6,32 @@
     "description": "We help brands scale faster through design, development and strategic execution.",
     "bookCall": "Book a Call",
     "getStarted": "Get started"
+  },
+  "Header": {
+    "blog": "Blog",
+    "pricing": "Pricing",
+    "about": "About",
+    "signIn": "Sign In",
+    "getStarted": "Get Started"
+  },
+  "Footer": {
+    "tagline": "Beautify your app with efferd.",
+    "resourcesTitle": "Resources",
+    "companyTitle": "Company",
+    "resources": {
+      "blog": "Blog",
+      "helpCenter": "Help Center",
+      "contactSupport": "Contact Support",
+      "community": "Community",
+      "security": "Security"
+    },
+    "company": {
+      "aboutUs": "About Us",
+      "careers": "Careers",
+      "brandAssets": "Brand assets",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service"
+    },
+    "copyright": "© {year} LevIQ, All rights reserved"
   }
 }

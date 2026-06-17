@@ -1,12 +1,30 @@
+"use client";
+
+import { useTranslations } from "next-intl";
 import { cn } from "@/lib/utils";
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Portal, PortalBackdrop } from "@/components/portal";
-import { navLinks } from "@/components/header";
 import { XIcon, MenuIcon } from "lucide-react";
 
 export function MobileNav() {
+  const t = useTranslations("Header");
   const [open, setOpen] = React.useState(false);
+
+  const navLinks = [
+    {
+      label: t("blog"),
+      href: "/blog",
+    },
+    {
+      label: t("pricing"),
+      href: "/pricing",
+    },
+    {
+      label: t("about"),
+      href: "/about",
+    },
+  ];
 
   return (
     <div className="md:hidden">
@@ -49,9 +67,9 @@ export function MobileNav() {
             </div>
             <div className="mt-12 flex flex-col gap-2">
               <Button className="w-full" variant="outline">
-                Sign In
+                {t("signIn")}
               </Button>
-              <Button className="w-full">Get Started</Button>
+              <Button className="w-full">{t("getStarted")}</Button>
             </div>
           </div>
         </Portal>
