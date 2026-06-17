@@ -4,6 +4,10 @@ import path from "path";
 import { buildConfig } from "payload";
 import { fileURLToPath } from "url";
 
+// Translations
+import { de } from "@payloadcms/translations/languages/de";
+import { en } from "@payloadcms/translations/languages/en";
+
 // Plugins
 import { mcpPlugin, MCPPluginConfig } from "@payloadcms/plugin-mcp";
 import { payloadMcpOAuth } from "@brainwebuk/payload-plugin-mcp-oauth";
@@ -31,6 +35,10 @@ export default buildConfig({
     importMap: {
       baseDir: path.resolve(dirname),
     },
+  },
+  i18n: {
+    fallbackLanguage: "de", // default
+    supportedLanguages: { de, en },
   },
   collections: [Users, Media, Posts],
   editor: lexicalEditor(),
