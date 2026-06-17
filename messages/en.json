@@ -12,7 +12,8 @@
     "pricing": "Pricing",
     "about": "About",
     "signIn": "Sign In",
-    "getStarted": "Get Started"
+    "getStarted": "Get Started",
+    "bookACall": "Book a Call"
   },
   "Footer": {
     "tagline": "Beautify your app with efferd.",

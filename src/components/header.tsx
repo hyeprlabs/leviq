@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { MobileNav } from "@/components/mobile-nav";
 import { Show, SignInButton, SignUpButton, UserButton } from "@clerk/nextjs";
 import { Link } from "@/i18n/navigation";
+import { CalEmbed } from "@/components/cal-embed";
 
 export function Header() {
   const t = useTranslations("Header");
@@ -60,6 +61,11 @@ export function Header() {
             ))}
           </div>
           <Show when="signed-out">
+            <CalEmbed>
+              <Button size="sm" variant="outline">
+                {t("bookACall")}
+              </Button>
+            </CalEmbed>
             <SignInButton>
               <Button size="sm" variant="outline">
                 {t("signIn")}
