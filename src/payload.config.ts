@@ -40,6 +40,10 @@ export default buildConfig({
     fallbackLanguage: "de", // default
     supportedLanguages: { de, en },
   },
+  localization: {
+    locales: ["de", "en"],
+    defaultLocale: "de",
+  },
   collections: [Users, Media, Posts],
   editor: lexicalEditor(),
   secret: process.env.PAYLOAD_SECRET || "",
