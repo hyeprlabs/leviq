@@ -5,7 +5,26 @@
     "heading": "Digitale Erfahrungen aufbauen, die Wachstum fördern",
     "description": "Wir helfen Marken schneller zu wachsen durch Design, Entwicklung und strategische Umsetzung.",
     "demo": "Demo",
-    "bookCall": "Termin buchen"
+    "bookCall": "Termin buchen",
+    "otherIndustries": {
+      "eyebrow": "Und viele mehr",
+      "description": "Wir bieten auch maßgeschneiderte digitale Lösungen für Unternehmen außerhalb dieser drei Branchen.",
+      "cta": "Alle Leistungen ansehen"
+    },
+    "industries": {
+      "handymen": {
+        "title": "Handwerker & Fachbetriebe",
+        "description": "Wir helfen Handwerkern, mehr Aufträge zu gewinnen – durch eine professionelle Online-Präsenz und automatisierte Kundengewinnung."
+      },
+      "realEstate": {
+        "title": "Immobilienmakler",
+        "description": "Setzen Sie sich in einem wettbewerbsintensiven Markt durch – mit überzeugenden Exposés, smartem Lead-Management und einer Marke, der Kunden vertrauen."
+      },
+      "doctors": {
+        "title": "Ärzte & Praxen",
+        "description": "Gewinnen Sie das Vertrauen Ihrer Patienten schon vor dem ersten Besuch – mit einem professionellen Auftritt und nahtloser Online-Terminbuchung."
+      }
+    }
   },
   "Header": {
     "blog": "Blog",

@@ -5,13 +5,33 @@
     "heading": "Building Digital Experiences That Drive Growth",
     "description": "We help brands scale faster through design, development and strategic execution.",
     "demo": "Demo",
-    "bookCall": "Book a Call"
+    "bookCall": "Book a Call",
+    "otherIndustries": {
+      "eyebrow": "And many more",
+      "description": "We also offer tailored digital solutions for businesses outside these three sectors.",
+      "cta": "View All Services"
+    },
+    "industries": {
+      "handymen": {
+        "title": "Handymen & Tradespeople",
+        "description": "We help skilled tradespeople win more jobs through a professional online presence and automated customer acquisition."
+      },
+      "realEstate": {
+        "title": "Real Estate Agents",
+        "description": "Stand out in a competitive market with compelling listings, smart lead generation, and a brand clients trust."
+      },
+      "doctors": {
+        "title": "Doctors & Clinics",
+        "description": "Build patient trust before they even walk in the door with a polished digital presence and seamless appointment booking."
+      }
+    }
   },
   "Header": {
     "blog": "Blog",
     "pricing": "Pricing",
     "about": "About",
     "contact": "Contact",
+    "demo": "Demo",
     "bookACall": "Book a Call"
   },
   "Footer": {
