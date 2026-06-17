@@ -1,3 +1,6 @@
+"use client";
+
+import { useTranslations } from "next-intl";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { DecorIcon } from "@/components/decor-icon";
@@ -5,6 +8,7 @@ import { FullWidthDivider } from "@/components/full-width-divider";
 import { ArrowRightIcon, PhoneCallIcon } from "lucide-react";
 
 export function HeroSection() {
+  const t = useTranslations("Hero");
   return (
     <section>
       <div className="relative flex flex-col items-center justify-center gap-5 px-4 py-12 md:px-4 md:py-24 lg:py-28">
@@ -33,10 +37,10 @@ export function HeroSection() {
           href="#link"
         >
           <div className="rounded-xs border bg-card px-1.5 py-0.5 shadow-sm">
-            <p className="font-mono text-xs">NOW</p>
+            <p className="font-mono text-xs">{t("badge")}</p>
           </div>
 
-          <span className="text-xs">accepting new client projects</span>
+          <span className="text-xs">{t("accepting")}</span>
           <span className="block h-5 border-l" />
 
           <div className="pr-1">
@@ -50,25 +54,24 @@ export function HeroSection() {
             "fade-in slide-in-from-bottom-10 animate-in fill-mode-backwards delay-100 duration-500 ease-out",
           )}
         >
-          Building Digital Experiences That Drive Growth
+          {t("heading")}
         </h1>
 
         <p
           className={cn(
-            "text-center text-muted-foreground text-sm tracking-wider sm:text-lg",
+            "max-w-lg mx-auto text-center text-muted-foreground text-sm tracking-wider sm:text-lg",
             "fade-in slide-in-from-bottom-10 animate-in fill-mode-backwards delay-200 duration-500 ease-out",
           )}
         >
-          We help brands scale faster through design, <br /> development and
-          strategic execution.
+          {t("description")}
         </p>
 
         <div className="fade-in slide-in-from-bottom-10 flex w-fit animate-in items-center justify-center gap-3 fill-mode-backwards pt-2 delay-300 duration-500 ease-out">
           <Button variant="outline">
-            <PhoneCallIcon data-icon="inline-start" /> Book a Call
+            <PhoneCallIcon data-icon="inline-start" /> {t("bookCall")}
           </Button>
           <Button>
-            Get started <ArrowRightIcon data-icon="inline-end" />
+            {t("getStarted")} <ArrowRightIcon data-icon="inline-end" />
           </Button>
         </div>
       </div>

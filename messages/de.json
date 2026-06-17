@@ -1,5 +1,10 @@
 {
-  "HomePage": {
-    "title": "Hello world!"
+  "Hero": {
+    "badge": "JETZT",
+    "accepting": "Akzeptiere neue Kundenprojekte",
+    "heading": "Digitale Erfahrungen aufbauen, die Wachstum fördern",
+    "description": "Wir helfen Marken schneller zu wachsen durch Design, Entwicklung und strategische Umsetzung.",
+    "bookCall": "Termin buchen",
+    "getStarted": "Jetzt starten"
   }
 }
