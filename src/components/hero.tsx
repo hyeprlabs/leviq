@@ -1,6 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { CalEmbed } from "@/components/cal-embed";
@@ -101,9 +102,12 @@ export function HeroSection() {
                 "fade-in slide-in-from-bottom-6 animate-in fill-mode-backwards duration-500 ease-out",
               )}
             >
-              <img
+              <Image
                 alt={t(`industries.${key}.title`)}
-                src={icon}
+                src={`/${icon}`}
+                width={352}
+                height={235}
+                sizes="176px"
                 className="w-44 h-auto drop-shadow-md"
               />
               <div className="flex flex-col gap-2">

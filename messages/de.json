@@ -196,7 +196,7 @@
     }
   },
   "Footer": {
-    "tagline": "Verschönern Sie Ihre App mit efferd.",
+    "tagline": "KI-Chatbots, SEO und digitale Automatisierung für den ambitionierten Mittelstand.",
     "resourcesTitle": "Ressourcen",
     "companyTitle": "Unternehmen",
     "resources": {
@@ -215,5 +215,103 @@
       "imprint": "Impressum"
     },
     "copyright": "© {year} LevIQ, Alle Rechte vorbehalten"
+  },
+  "Meta": {
+    "siteName": "LevIQ",
+    "siteDescription": "LevIQ entwickelt KI-Chatbots, Suchmaschinen- und GEO-Optimierung (SEO/GEO) sowie digitale Automatisierung für Handwerk, Immobilien und Arztpraxen – aus Grünwald bei München.",
+    "homeTitle": "KI-Chatbots & digitale Automatisierung, die Ihnen mehr Kunden bringen",
+    "homeDescription": "LevIQ entwickelt KI-gestützte Chatbots, Suchmaschinenoptimierung und Generative Engine Optimization (GEO) sowie digitale Automatisierung für den Mittelstand. Mehr Sichtbarkeit, mehr qualifizierte Anfragen, weniger Routinearbeit.",
+    "ogAlt": "LevIQ – Agentur für KI-Chatbots, SEO und digitale Automatisierung",
+    "keywords": [
+      "KI-Agentur",
+      "KI-Chatbot",
+      "Chatbot Entwicklung",
+      "SEO",
+      "Suchmaschinenoptimierung",
+      "GEO",
+      "Generative Engine Optimization",
+      "Answer Engine Optimization",
+      "AEO",
+      "Digitalisierung",
+      "Automatisierung",
+      "digitale Transformation",
+      "Leadgenerierung",
+      "Handwerk",
+      "Immobilienmakler",
+      "Arztpraxis",
+      "München",
+      "Grünwald",
+      "LevIQ"
+    ]
+  },
+  "Services": {
+    "catalogName": "KI-, SEO- & Automatisierungsleistungen",
+    "items": [
+      {
+        "name": "KI-Chatbot-Entwicklung",
+        "description": "Konzeption, Entwicklung und Integration KI-gestützter Chatbots, die rund um die Uhr Fragen beantworten, Anfragen qualifizieren und Termine buchen."
+      },
+      {
+        "name": "SEO & Generative Engine Optimization (GEO)",
+        "description": "Suchmaschinenoptimierung plus Optimierung für generative KI-Systeme, damit Ihr Unternehmen bei Google rankt und von ChatGPT, Perplexity und AI Overviews empfohlen wird."
+      },
+      {
+        "name": "KI-Strategieberatung",
+        "description": "Strategische Beratung, wo und wie Sie KI im Unternehmen mit messbarer Wirkung einsetzen."
+      },
+      {
+        "name": "Digitale Transformation & Automatisierung",
+        "description": "Automatisierung digitaler Abläufe und Prozesse, um Routinearbeit zu beseitigen und Ihr Team zu entlasten."
+      }
+    ]
+  },
+  "Blog": {
+    "metaTitle": "Blog – KI, Automatisierung & digitales Wachstum",
+    "metaDescription": "Praxisnahe Einblicke zu KI-Chatbots, SEO, Generative Engine Optimization (GEO) und digitaler Automatisierung für den Mittelstand.",
+    "heading": "Blog",
+    "subheading": "Praxisnahe Einblicke zu KI, Automatisierung und digitalem Wachstum für moderne Unternehmen.",
+    "latestPosts": "Neueste Beiträge",
+    "readMore": "Ganzen Artikel lesen.",
+    "breadcrumbHome": "Startseite"
+  },
+  "Logos": {
+    "trustedByLead": "Vertraut von",
+    "trustedByHighlight": "Experten"
+  },
+  "Cta": {
+    "heading": "Bereit, KI für Ihr Unternehmen arbeiten zu lassen?",
+    "description": "Buchen Sie ein kostenloses Strategiegespräch und sehen Sie genau, was LevIQ für Sie automatisieren, ranken und wachsen lassen kann.",
+    "primary": "Termin buchen",
+    "secondary": "Vertrieb kontaktieren"
+  },
+  "Faq": {
+    "heading": "Häufig gestellte Fragen",
+    "subheading": "Was Unternehmen uns am häufigsten zu KI, SEO und der Zusammenarbeit mit LevIQ fragen.",
+    "items": [
+      {
+        "question": "Was macht LevIQ?",
+        "answer": "LevIQ ist eine Digitalagentur, die KI-gestützte Chatbots entwickelt, Suchmaschinen- und Generative Engine Optimization (SEO & GEO) umsetzt und digitale Abläufe für kleine und mittlere Unternehmen automatisiert – mit Schwerpunkt auf Handwerk, Immobilienmaklern und Arztpraxen."
+      },
+      {
+        "question": "Was ist Generative Engine Optimization (GEO)?",
+        "answer": "GEO – eng verwandt mit Answer Engine Optimization (AEO) – bezeichnet die Optimierung einer Website, damit KI-Systeme wie ChatGPT, Google AI Overviews, Perplexity und Claude sie verstehen und in ihren Antworten empfehlen. LevIQ kombiniert klassisches SEO mit strukturierten Daten, sauberer Semantik und maschinenlesbaren Inhalten, damit Ihr Unternehmen von KI zitierbar wird."
+      },
+      {
+        "question": "Auf welche Branchen ist LevIQ spezialisiert?",
+        "answer": "LevIQ konzentriert sich auf Handwerker und Fachbetriebe, Immobilienmakler sowie Ärzte und Praxen, liefert aber auch maßgeschneiderte digitale Lösungen für Unternehmen anderer Branchen."
+      },
+      {
+        "question": "Was kostet die Zusammenarbeit mit LevIQ?",
+        "answer": "LevIQ arbeitet mit einer transparenten monatlichen Pauschale (Retainer). Der genaue Leistungsumfang und Preis werden individuell auf Basis Ihrer Ziele vereinbart – buchen Sie ein kostenloses Gespräch für ein passgenaues Angebot."
+      },
+      {
+        "question": "Wo sitzt LevIQ?",
+        "answer": "LevIQ wird von Oskar Seeberger aus Grünwald bei München betrieben und betreut Kunden in ganz Deutschland, Österreich und der Schweiz – remote und vor Ort."
+      },
+      {
+        "question": "Wie starte ich mit LevIQ?",
+        "answer": "Buchen Sie ein kostenloses, unverbindliches Strategiegespräch. Wir prüfen Ihr aktuelles Setup, identifizieren die wirkungsvollsten Automatisierungs- und Sichtbarkeitschancen und skizzieren einen klaren nächsten Schritt."
+      }
+    ]
   }
 }

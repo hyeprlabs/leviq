@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import { LegalPageLayout, LegalSection } from "@/components/legal/legal-page-layout";
+import { alternatesFor, type Locale } from "@/lib/seo";
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -11,6 +12,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t("title"),
     description: t("metaDescription"),
+    alternates: alternatesFor("/legal/imprint", locale as Locale),
   };
 }
 
