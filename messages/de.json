@@ -33,6 +33,168 @@
     "demo": "Demo",
     "bookACall": "Termin buchen"
   },
+  "Legal": {
+    "impressum": {
+      "title": "Impressum",
+      "metaDescription": "Impressum und rechtliche Angaben gemäß § 5 TMG.",
+      "lastUpdated": "Stand: 23. Juli 2026",
+      "section1Title": "Angaben gemäß § 5 TMG",
+      "operator": "Oskar Seeberger",
+      "addressLine1": "Adalbert-Stifter-Straße 5",
+      "addressLine2": "82031 Grünwald",
+      "addressLine3": "Deutschland",
+      "contactTitle": "Kontakt",
+      "phoneLabel": "Telefon",
+      "phone": "+49 159 050 90 161",
+      "emailLabel": "E-Mail",
+      "email": "o.seeberger@outlook.com",
+      "vatTitle": "Umsatzsteuer",
+      "vatText": "Gemäß § 19 Abs. 1 UStG wird auf den Ausweis der Umsatzsteuer verzichtet (Kleinunternehmerregelung). Eine Umsatzsteuer-Identifikationsnummer liegt daher nicht vor.",
+      "editorialTitle": "Verantwortlich für den Inhalt gemäß § 18 Abs. 2 MStV",
+      "editorialText": "Oskar Seeberger, Anschrift wie vorstehend.",
+      "disputeTitle": "Verbraucherstreitbeilegung",
+      "disputeText": "Die Europäische Kommission stellt unter https://ec.europa.eu/consumers/odr/ eine Plattform zur außergerichtlichen Online-Streitbeilegung (OS-Plattform) bereit. Zur Teilnahme an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle sind wir weder verpflichtet noch bereit.",
+      "liabilityContentTitle": "Haftung für Inhalte",
+      "liabilityContentText": "Die Inhalte dieser Website wurden mit größtmöglicher Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte kann jedoch keine Gewähr übernommen werden. Als Diensteanbieter bin ich gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG bin ich als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt; eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden entsprechender Rechtsverletzungen werden die betroffenen Inhalte umgehend entfernt.",
+      "liabilityLinksTitle": "Haftung für Links",
+      "liabilityLinksText": "Dieses Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte kein Einfluss besteht. Deshalb kann für diese fremden Inhalte auch keine Gewähr übernommen werden. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden derartige Links umgehend entfernt.",
+      "copyrightTitle": "Urheberrecht",
+      "copyrightText": "Die durch mich erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der vorherigen schriftlichen Zustimmung. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht von mir erstellt wurden, werden die Urheberrechte Dritter beachtet und entsprechende Inhalte als solche gekennzeichnet."
+    },
+    "privacy": {
+      "title": "Datenschutzerklärung",
+      "metaDescription": "Informationen zur Verarbeitung personenbezogener Daten gemäß DSGVO.",
+      "lastUpdated": "Stand: 23. Juli 2026",
+      "intro": "Der Schutz Ihrer personenbezogenen Daten ist mir ein wichtiges Anliegen. Nachfolgend informiere ich Sie gemäß Art. 13 und Art. 14 der Datenschutz-Grundverordnung (DSGVO) umfassend über Art, Umfang und Zweck der Verarbeitung personenbezogener Daten im Rahmen dieses Onlineangebots sowie im Zuge bestehender Geschäftsbeziehungen.",
+      "controllerTitle": "1. Verantwortlicher",
+      "controllerText": "Verantwortlicher im Sinne der DSGVO ist Oskar Seeberger, Adalbert-Stifter-Straße 5, 82031 Grünwald, Deutschland, erreichbar unter o.seeberger@outlook.com. Die Bestellung eines Datenschutzbeauftragten ist aufgrund der Betriebsgröße gesetzlich nicht erforderlich.",
+      "scopeTitle": "2. Kategorien verarbeiteter Daten",
+      "scopeIntro": "Im Rahmen der Website-Nutzung und der Geschäftsbeziehung werden folgende Kategorien personenbezogener Daten verarbeitet:",
+      "scopeItems": [
+        "Kontaktdaten aus Anfragen (Name, E-Mail-Adresse, Telefonnummer, Nachrichteninhalt)",
+        "Rechnungs- und Zahlungsdaten im Rahmen der Auftragsabwicklung (verarbeitet über Stripe)",
+        "Nutzungs- und Protokolldaten zur Bereitstellung und Absicherung der Website (Server-Logfiles)",
+        "Pseudonymisierte Nutzungsdaten zur Analyse und Verbesserung des Angebots (PostHog)",
+        "Geschäftskorrespondenz und Kontaktverwaltung im Rahmen der Kundenbeziehung (Attio, Resend)"
+      ],
+      "legalTitle": "3. Rechtsgrundlagen der Verarbeitung",
+      "legalIntro": "Die Verarbeitung personenbezogener Daten erfolgt auf Grundlage der folgenden Rechtsgrundlagen der DSGVO:",
+      "legalItems": [
+        "Art. 6 Abs. 1 lit. b DSGVO – zur Erfüllung vorvertraglicher Maßnahmen sowie zur Durchführung von Verträgen über Beratungsleistungen",
+        "Art. 6 Abs. 1 lit. f DSGVO – zur Wahrung berechtigter Interessen, insbesondere der Sicherstellung der IT-Sicherheit, der Betrugsprävention sowie der bedarfsgerechten Weiterentwicklung des Angebots",
+        "Art. 6 Abs. 1 lit. c DSGVO – zur Erfüllung rechtlicher Verpflichtungen, etwa handels- und steuerrechtlicher Aufbewahrungspflichten"
+      ],
+      "processorsTitle": "4. Auftragsverarbeiter und Empfänger von Daten",
+      "processorsIntro": "Zur Bereitstellung der Website und zur Abwicklung der Geschäftsbeziehung werden folgende sorgfältig ausgewählte Auftragsverarbeiter und Dienstleister eingesetzt. Mit sämtlichen Auftragsverarbeitern besteht, soweit gesetzlich erforderlich, ein Auftragsverarbeitungsvertrag gemäß Art. 28 DSGVO:",
+      "processorsItems": [
+        "Vercel Inc. (Hosting und Infrastruktur, Rechenzentrumsstandort Frankfurt am Main): verarbeitet Server-Logfiles, IP-Adressen sowie technisch notwendige Session-Informationen. Der Auftragsverarbeitungsvertrag enthält EU-Standardvertragsklauseln gemäß Art. 46 Abs. 2 lit. c DSGVO.",
+        "Stripe Payments Europe, Ltd. (Zahlungsabwicklung, Sitz: Dublin, Irland): verarbeitet Zahlungs-, Rechnungs- und Abonnementdaten im Rahmen der Vertragsdurchführung. Stripe ist PCI-DSS-zertifiziert und unterliegt eigenen gesetzlichen Aufbewahrungspflichten für Zahlungsbelege.",
+        "PostHog Inc. (Webanalyse, Sitz: San Francisco, USA): erfasst pseudonymisierte Nutzungsdaten zur bedarfsgerechten Weiterentwicklung des Angebots. Eine Zusammenführung mit anderen Quellen findet nicht statt. Die Übermittlung in die USA erfolgt auf Grundlage von EU-Standardvertragsklauseln.",
+        "Attio (Kundenverwaltung/CRM): dient der internen Verwaltung von Geschäftskontakten und Projektinformationen im Rahmen bestehender oder angebahnter Geschäftsbeziehungen.",
+        "Resend (E-Mail-Versand): wird für den Versand transaktionsbezogener E-Mails, etwa Auftragsbestätigungen und Benachrichtigungen, eingesetzt."
+      ],
+      "cookiesTitle": "5. Cookies und vergleichbare Technologien",
+      "cookiesIntro": "Diese Website verwendet ausschließlich technisch notwendige Cookies sowie pseudonymisierte Analysetechnologien; ein Einsatz von Marketing- oder Tracking-Cookies Dritter findet nicht statt.",
+      "cookieTypes": [
+        "Technisch notwendige Cookies: Aufrechterhaltung der Sitzung und Sicherstellung grundlegender Funktionen der Website (Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO, § 25 Abs. 2 Nr. 2 TTDSG)",
+        "PostHog-Analyse: Pseudonymisierte Erfassung von Seitenaufrufen und Interaktionen zur Reichweitenmessung (Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO)"
+      ],
+      "cookiesOutro": "Da es sich ausschließlich um technisch notwendige und berechtigte Interessen wahrende Verarbeitungen handelt, ist eine gesonderte Einwilligung nicht erforderlich.",
+      "retentionTitle": "6. Speicherdauer",
+      "retentionIntro": "Personenbezogene Daten werden nur so lange gespeichert, wie dies zur Erreichung des jeweiligen Verarbeitungszwecks erforderlich ist oder gesetzliche Aufbewahrungsfristen bestehen:",
+      "retentionItems": [
+        "Kontaktanfragen: Löschung nach abschließender Bearbeitung, spätestens nach 12 Monaten",
+        "Rechnungs- und Zahlungsdaten: Aufbewahrung entsprechend handels- und steuerrechtlicher Fristen (§ 147 AO, § 257 HGB), in der Regel bis zu 10 Jahre",
+        "Analysedaten (PostHog): automatisierte Löschung nach 12 Monaten"
+      ],
+      "rightsTitle": "7. Rechte der betroffenen Person",
+      "rightsIntro": "Ihnen stehen hinsichtlich Ihrer personenbezogenen Daten die folgenden Rechte zu:",
+      "rightsItems": [
+        "Recht auf Auskunft über die verarbeiteten Daten (Art. 15 DSGVO)",
+        "Recht auf Berichtigung unrichtiger Daten (Art. 16 DSGVO)",
+        "Recht auf Löschung, soweit keine gesetzlichen Aufbewahrungspflichten entgegenstehen (Art. 17 DSGVO)",
+        "Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)",
+        "Recht auf Datenübertragbarkeit (Art. 20 DSGVO)",
+        "Recht auf Widerspruch gegen die Verarbeitung aus Gründen berechtigter Interessen (Art. 21 DSGVO)",
+        "Recht auf Widerruf einer erteilten Einwilligung mit Wirkung für die Zukunft (Art. 7 Abs. 3 DSGVO)"
+      ],
+      "rightsOutro": "Zur Geltendmachung dieser Rechte genügt eine formlose Mitteilung an o.seeberger@outlook.com.",
+      "transfersTitle": "8. Datenübermittlung in Drittländer",
+      "transfersText": "Einzelne der vorstehend genannten Auftragsverarbeiter haben ihren Sitz außerhalb der Europäischen Union, insbesondere in den USA. Die Übermittlung personenbezogener Daten in diese Drittländer erfolgt ausschließlich auf Grundlage geeigneter Garantien im Sinne der Art. 44 bis 49 DSGVO, insbesondere unter Verwendung der von der EU-Kommission erlassenen Standardvertragsklauseln.",
+      "securityTitle": "9. Datensicherheit",
+      "securityText": "Es werden angemessene technische und organisatorische Maßnahmen getroffen, um personenbezogene Daten gegen zufällige oder vorsätzliche Manipulation, Verlust, Zerstörung oder unbefugten Zugriff Dritter zu schützen, darunter die durchgängige Transportverschlüsselung (TLS) sämtlicher Datenübertragungen.",
+      "changesTitle": "10. Änderungen dieser Datenschutzerklärung",
+      "changesText": "Diese Datenschutzerklärung wird bei Bedarf angepasst, um stets den aktuellen rechtlichen Anforderungen zu entsprechen oder Änderungen der Leistungen in der Datenschutzerklärung umzusetzen. Es gilt jeweils die auf dieser Website veröffentlichte Fassung.",
+      "contactTitle": "11. Kontakt und Beschwerderecht",
+      "contactText": "Für Fragen zur Verarbeitung Ihrer personenbezogenen Daten oder zur Geltendmachung Ihrer Rechte steht Oskar Seeberger unter o.seeberger@outlook.com zur Verfügung. Unbeschadet anderweitiger Rechtsbehelfe steht Ihnen zudem das Recht zu, sich bei einer Datenschutzaufsichtsbehörde zu beschweren. Zuständig ist das Bayerische Landesamt für Datenschutzaufsicht, Promenade 18, 91522 Ansbach (www.lda.bayern.de)."
+    },
+    "terms": {
+      "title": "Allgemeine Geschäftsbedingungen",
+      "metaDescription": "Allgemeine Geschäftsbedingungen für Beratungsleistungen.",
+      "lastUpdated": "Stand: 23. Juli 2026",
+      "scopeTitle": "§ 1 Geltungsbereich",
+      "scopeText": "Diese Allgemeinen Geschäftsbedingungen gelten für sämtliche Beratungs- und Dienstleistungsverträge zwischen Oskar Seeberger, handelnd unter LevIQ (nachfolgend „Auftragnehmer“), und Unternehmern im Sinne des § 14 BGB, Freiberuflern sowie sonstigen juristischen Personen des öffentlichen und privaten Rechts (nachfolgend „Auftraggeber“). Verträge mit Verbrauchern im Sinne des § 13 BGB werden nicht geschlossen. Entgegenstehende oder von diesen Bedingungen abweichende Bedingungen des Auftraggebers finden keine Anwendung, es sei denn, der Auftragnehmer stimmt ihrer Geltung ausdrücklich schriftlich zu.",
+      "servicesTitle": "§ 2 Vertragsgegenstand und Leistungsumfang",
+      "servicesIntro": "Der Auftragnehmer erbringt Beratungsleistungen im Bereich künstliche Intelligenz und digitale Transformation, insbesondere:",
+      "servicesItems": [
+        "Konzeption, Entwicklung und Integration KI-gestützter Chatbot-Lösungen",
+        "Suchmaschinenoptimierung sowie Optimierung für generative KI-Systeme (SEO/GEO)",
+        "strategische Beratung zum Einsatz von KI-Technologien im Unternehmenskontext",
+        "Begleitung digitaler Transformations- und Prozessoptimierungsvorhaben"
+      ],
+      "servicesOutro": "Der jeweils konkrete Leistungsumfang, die Leistungstermine sowie etwaige Meilensteine ergeben sich aus der individuellen Leistungsbeschreibung, dem Angebot oder einem gesondert vereinbarten Statement of Work, das Bestandteil des jeweiligen Einzelvertrags wird.",
+      "conclusionTitle": "§ 3 Vertragsschluss",
+      "conclusionText": "Ein Vertrag kommt durch schriftliche Auftragsbestätigung des Auftragnehmers, durch beiderseitige Unterzeichnung eines Angebots oder Statement of Work oder durch Ausführung der ersten Abrechnung zustande, je nachdem, welches Ereignis zuerst eintritt.",
+      "pricingTitle": "§ 4 Vergütung und Zahlungsbedingungen",
+      "pricingIntro": "Die Vergütung erfolgt nach Maßgabe des individuell vereinbarten Leistungspakets in Form einer monatlichen Pauschalvergütung (Retainer). Es gilt Folgendes:",
+      "pricingItems": [
+        "Die Abrechnung erfolgt monatlich im Voraus zu Beginn des jeweiligen Leistungsmonats.",
+        "Die Zahlung erfolgt über den Zahlungsdienstleister Stripe; der Auftraggeber ermächtigt den Auftragnehmer hierdurch zum wiederkehrenden Einzug der fälligen Beträge vom hinterlegten Zahlungsmittel.",
+        "Rechnungsbeträge sind sofort nach Rechnungsstellung ohne Abzug fällig.",
+        "Bei Zahlungsverzug ist der Auftragnehmer berechtigt, Verzugszinsen in gesetzlicher Höhe gemäß § 288 Abs. 2 BGB zu berechnen.",
+        "Alle genannten Preise verstehen sich netto zuzüglich der gesetzlich geschuldeten Umsatzsteuer, soweit diese anfällt; derzeit erfolgt die Abrechnung ohne Umsatzsteuerausweis gemäß § 19 Abs. 1 UStG."
+      ],
+      "termTitle": "§ 5 Vertragslaufzeit und Kündigung",
+      "termItems": [
+        "Die Mindestlaufzeit richtet sich nach der individuellen Vereinbarung; mangels abweichender Regelung gilt der Vertrag als auf unbestimmte Zeit mit monatlicher Abrechnung geschlossen.",
+        "Beide Parteien können den Vertrag mit einer Frist von 30 Tagen zum Ende eines Kalendermonats ordentlich kündigen.",
+        "Das Recht beider Parteien zur außerordentlichen Kündigung aus wichtigem Grund, insbesondere bei erheblicher Verletzung wesentlicher Vertragspflichten, bleibt unberührt.",
+        "Mit Wirksamwerden der Kündigung endet die Berechtigung zum Einzug wiederkehrender Zahlungen; bereits erbrachte Leistungen werden zeitanteilig abgerechnet."
+      ],
+      "obligationsTitle": "§ 6 Mitwirkungspflichten des Auftraggebers",
+      "obligationsText": "Der Auftraggeber stellt dem Auftragnehmer die für die Leistungserbringung erforderlichen Informationen, Zugänge und Ressourcen rechtzeitig und vollständig zur Verfügung. Verzögerungen, die auf einer unzureichenden oder verspäteten Mitwirkung des Auftraggebers beruhen, gehen nicht zulasten des Auftragnehmers und berechtigen zur angemessenen Anpassung vereinbarter Termine.",
+      "ipTitle": "§ 7 Geistiges Eigentum und Nutzungsrechte",
+      "ipItems": [
+        "Der Auftragnehmer bleibt Inhaber der Rechte an eigenen Methoden, Vorlagen, Werkzeugen und generischen Konzepten, die unabhängig vom jeweiligen Auftrag entwickelt wurden.",
+        "Speziell für den Auftraggeber erstellte Arbeitsergebnisse gehen nach vollständiger Bezahlung der hierauf entfallenden Vergütung in das Eigentum des Auftraggebers über.",
+        "Der Auftragnehmer ist berechtigt, im Rahmen des Auftrags gewonnene Erkenntnisse in anonymisierter und nicht identifizierbarer Form für eigene Referenzzwecke zu verwenden."
+      ],
+      "confidentialityTitle": "§ 8 Vertraulichkeit",
+      "confidentialityText": "Beide Parteien verpflichten sich, alle im Rahmen der Zusammenarbeit erlangten vertraulichen Informationen der jeweils anderen Partei streng vertraulich zu behandeln und ausschließlich zur Vertragsdurchführung zu verwenden. Diese Verpflichtung besteht auch nach Beendigung des Vertragsverhältnisses fort.",
+      "dataProtectionTitle": "§ 9 Datenschutz",
+      "dataProtectionText": "Die Verarbeitung personenbezogener Daten im Rahmen dieses Vertragsverhältnisses erfolgt gemäß der geltenden Datenschutzerklärung sowie den Vorgaben der DSGVO. Sofern der Auftragnehmer im Auftrag des Auftraggebers personenbezogene Daten verarbeitet, wird auf Verlangen ein gesonderter Auftragsverarbeitungsvertrag gemäß Art. 28 DSGVO abgeschlossen.",
+      "liabilityTitle": "§ 10 Haftung",
+      "liabilityIntro": "Die Haftung des Auftragnehmers richtet sich nach folgenden Grundsätzen:",
+      "liabilityItems": [
+        "Für Schäden aus der Verletzung des Lebens, des Körpers oder der Gesundheit sowie für Vorsatz und grobe Fahrlässigkeit haftet der Auftragnehmer unbeschränkt nach den gesetzlichen Vorschriften.",
+        "Bei leicht fahrlässiger Verletzung wesentlicher Vertragspflichten (Kardinalpflichten) ist die Haftung auf den vertragstypisch vorhersehbaren Schaden begrenzt, höchstens jedoch auf die in den vorangegangenen zwölf Monaten gezahlte Vergütung.",
+        "Im Übrigen ist die Haftung für leichte Fahrlässigkeit ausgeschlossen.",
+        "Für den Verlust von Daten haftet der Auftragnehmer nur, soweit dieser Verlust auch bei ordnungsgemäßer Datensicherung durch den Auftraggeber nicht hätte vermieden werden können.",
+        "Eine Haftung für einen bestimmten wirtschaftlichen Erfolg der Beratungsleistungen wird nicht übernommen."
+      ],
+      "warrantyTitle": "§ 11 Gewährleistung",
+      "warrantyText": "Die Beratungsleistungen des Auftragnehmers werden nach dem jeweils aktuellen Stand von Wissenschaft und Technik sowie den anerkannten Grundsätzen ordnungsgemäßer Berufsausübung erbracht. Da es sich um Dienstleistungen handelt, finden die werkvertraglichen Gewährleistungsvorschriften keine Anwendung; geschuldet wird das sorgfältige Bemühen, nicht ein bestimmter Erfolg.",
+      "forceMajeureTitle": "§ 12 Höhere Gewalt",
+      "forceMajeureText": "Ereignisse höherer Gewalt, die die Leistungserbringung wesentlich erschweren oder vorübergehend unmöglich machen, befreien die betroffene Partei für die Dauer und im Umfang der Auswirkungen von ihrer Leistungspflicht, ohne dass hieraus Ersatzansprüche der jeweils anderen Partei entstehen.",
+      "finalTitle": "§ 13 Schlussbestimmungen",
+      "finalItems": [
+        "Änderungen und Ergänzungen dieser Bedingungen sowie des jeweiligen Einzelvertrags bedürfen der Textform.",
+        "Es gilt das Recht der Bundesrepublik Deutschland unter Ausschluss des UN-Kaufrechts.",
+        "Ausschließlicher Gerichtsstand für sämtliche Streitigkeiten aus oder im Zusammenhang mit diesem Vertragsverhältnis ist, soweit gesetzlich zulässig, München.",
+        "Sollte eine Bestimmung dieser Bedingungen unwirksam sein oder werden, bleibt die Wirksamkeit der übrigen Bestimmungen hiervon unberührt."
+      ]
+    }
+  },
   "Footer": {
     "tagline": "Verschönern Sie Ihre App mit efferd.",
     "resourcesTitle": "Ressourcen",
@@ -48,8 +210,9 @@
       "aboutUs": "Über uns",
       "careers": "Karrieren",
       "brandAssets": "Markenressourcen",
-      "privacyPolicy": "Datenschutzrichtlinie",
-      "termsOfService": "Servicebedingungen"
+      "privacyPolicy": "Datenschutz",
+      "termsOfService": "AGB",
+      "imprint": "Impressum"
     },
     "copyright": "© {year} LevIQ, Alle Rechte vorbehalten"
   }

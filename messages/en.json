@@ -34,6 +34,168 @@
     "demo": "Demo",
     "bookACall": "Book a Call"
   },
+  "Legal": {
+    "impressum": {
+      "title": "Imprint",
+      "metaDescription": "Imprint and legal information pursuant to § 5 TMG.",
+      "lastUpdated": "Last updated: July 23, 2026",
+      "section1Title": "Information pursuant to § 5 TMG (German Telemedia Act)",
+      "operator": "Oskar Seeberger",
+      "addressLine1": "Adalbert-Stifter-Straße 5",
+      "addressLine2": "82031 Grünwald",
+      "addressLine3": "Germany",
+      "contactTitle": "Contact",
+      "phoneLabel": "Phone",
+      "phone": "+49 159 050 90 161",
+      "emailLabel": "Email",
+      "email": "o.seeberger@outlook.com",
+      "vatTitle": "VAT",
+      "vatText": "Pursuant to § 19 (1) of the German VAT Act (UStG), no value-added tax is charged (small business exemption). No VAT identification number has therefore been issued.",
+      "editorialTitle": "Responsible for editorial content pursuant to § 18 (2) MStV",
+      "editorialText": "Oskar Seeberger, address as stated above.",
+      "disputeTitle": "Consumer Dispute Resolution",
+      "disputeText": "The European Commission provides a platform for online dispute resolution (ODR) at https://ec.europa.eu/consumers/odr/. We are neither obligated nor willing to participate in dispute resolution proceedings before a consumer arbitration board.",
+      "liabilityContentTitle": "Liability for Content",
+      "liabilityContentText": "The contents of this website have been created with the greatest possible care. However, no guarantee can be given for the accuracy, completeness, or timeliness of the content. As a service provider, I am responsible for my own content on these pages in accordance with general legislation pursuant to § 7 (1) TMG. However, pursuant to §§ 8 to 10 TMG, I am not obligated as a service provider to monitor transmitted or stored third-party information or to investigate circumstances that indicate unlawful activity. Obligations to remove or block the use of information under general law remain unaffected; however, liability in this respect is only possible from the point in time at which a specific infringement becomes known. Upon becoming aware of any such infringements, the relevant content will be removed immediately.",
+      "liabilityLinksTitle": "Liability for Links",
+      "liabilityLinksText": "This website contains links to external third-party websites over whose content I have no influence. Therefore, no liability can be assumed for this third-party content. The respective provider or operator of the linked pages is always responsible for their content. The linked pages were checked for possible legal violations at the time of linking. No unlawful content was identifiable at the time of linking. Continuous monitoring of the content of linked pages is unreasonable without concrete evidence of a legal infringement. Upon becoming aware of any such infringements, the relevant links will be removed immediately.",
+      "copyrightTitle": "Copyright",
+      "copyrightText": "The content and works created by me on these pages are subject to German copyright law. Reproduction, editing, distribution, and any kind of exploitation outside the limits of copyright law require the prior written consent of the respective author. Downloads and copies of this page are permitted only for private, non-commercial use. Insofar as the content on this page was not created by me, the copyrights of third parties are respected, and such content is identified as such."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "metaDescription": "Information on the processing of personal data pursuant to the GDPR.",
+      "lastUpdated": "Last updated: July 23, 2026",
+      "intro": "The protection of your personal data is important to me. In the following, I inform you comprehensively, in accordance with Art. 13 and Art. 14 of the General Data Protection Regulation (GDPR), about the nature, scope, and purpose of the processing of personal data within the scope of this online offering and in the course of existing business relationships.",
+      "controllerTitle": "1. Data Controller",
+      "controllerText": "The controller within the meaning of the GDPR is Oskar Seeberger, Adalbert-Stifter-Straße 5, 82031 Grünwald, Germany, reachable at o.seeberger@outlook.com. Due to the size of the business, the appointment of a data protection officer is not legally required.",
+      "scopeTitle": "2. Categories of Data Processed",
+      "scopeIntro": "In connection with the use of this website and the business relationship, the following categories of personal data are processed:",
+      "scopeItems": [
+        "Contact data from inquiries (name, email address, phone number, message content)",
+        "Billing and payment data in connection with contract fulfillment (processed via Stripe)",
+        "Usage and log data for the provision and security of the website (server log files)",
+        "Pseudonymized usage data for the analysis and improvement of the service (PostHog)",
+        "Business correspondence and contact management within the scope of the client relationship (Attio, Resend)"
+      ],
+      "legalTitle": "3. Legal Basis for Processing",
+      "legalIntro": "Personal data is processed on the basis of the following legal grounds under the GDPR:",
+      "legalItems": [
+        "Art. 6 (1) (b) GDPR – for the performance of pre-contractual measures and the execution of consulting service agreements",
+        "Art. 6 (1) (f) GDPR – to safeguard legitimate interests, in particular ensuring IT security, fraud prevention, and the needs-based further development of the service",
+        "Art. 6 (1) (c) GDPR – to comply with legal obligations, such as commercial and tax retention requirements"
+      ],
+      "processorsTitle": "4. Data Processors and Recipients",
+      "processorsIntro": "The following carefully selected data processors and service providers are engaged to operate this website and manage the business relationship. Data processing agreements pursuant to Art. 28 GDPR are in place with all processors where legally required:",
+      "processorsItems": [
+        "Vercel Inc. (hosting and infrastructure, data center location: Frankfurt am Main, Germany): processes server log files, IP addresses, and technically necessary session information. The data processing agreement includes EU Standard Contractual Clauses pursuant to Art. 46 (2) (c) GDPR.",
+        "Stripe Payments Europe, Ltd. (payment processing, headquarters: Dublin, Ireland): processes payment, invoicing, and subscription data in connection with the performance of the contract. Stripe is PCI-DSS certified and is subject to its own statutory retention obligations for payment records.",
+        "PostHog Inc. (web analytics, headquarters: San Francisco, USA): collects pseudonymized usage data to further develop the service as needed. Data is not combined with other sources. The transfer to the USA is based on EU Standard Contractual Clauses.",
+        "Attio (customer relationship management): used for the internal management of business contacts and project information within existing or prospective business relationships.",
+        "Resend (email delivery): used to send transaction-related emails, such as order confirmations and notifications."
+      ],
+      "cookiesTitle": "5. Cookies and Similar Technologies",
+      "cookiesIntro": "This website uses only technically necessary cookies and pseudonymized analytics technology; no third-party marketing or tracking cookies are used.",
+      "cookieTypes": [
+        "Technically necessary cookies: maintaining the session and ensuring the basic functionality of the website (legal basis: Art. 6 (1) (f) GDPR, § 25 (2) No. 2 TTDSG)",
+        "PostHog analytics: pseudonymized collection of page views and interactions for reach measurement (legal basis: Art. 6 (1) (f) GDPR)"
+      ],
+      "cookiesOutro": "As these are exclusively technically necessary processing activities that safeguard legitimate interests, separate consent is not required.",
+      "retentionTitle": "6. Data Retention",
+      "retentionIntro": "Personal data is stored only for as long as necessary to achieve the respective processing purpose or as required by statutory retention periods:",
+      "retentionItems": [
+        "Contact inquiries: deleted upon completion of processing, at the latest after 12 months",
+        "Billing and payment data: retained in accordance with commercial and tax law retention periods (§ 147 AO, § 257 HGB), generally up to 10 years",
+        "Analytics data (PostHog): automatically deleted after 12 months"
+      ],
+      "rightsTitle": "7. Your Rights as a Data Subject",
+      "rightsIntro": "You have the following rights with respect to your personal data:",
+      "rightsItems": [
+        "Right of access to the processed data (Art. 15 GDPR)",
+        "Right to rectification of inaccurate data (Art. 16 GDPR)",
+        "Right to erasure, insofar as no statutory retention obligations apply (Art. 17 GDPR)",
+        "Right to restriction of processing (Art. 18 GDPR)",
+        "Right to data portability (Art. 20 GDPR)",
+        "Right to object to processing based on legitimate interests (Art. 21 GDPR)",
+        "Right to withdraw any consent given, with effect for the future (Art. 7 (3) GDPR)"
+      ],
+      "rightsOutro": "To exercise these rights, an informal message to o.seeberger@outlook.com is sufficient.",
+      "transfersTitle": "8. International Data Transfers",
+      "transfersText": "Some of the data processors named above are headquartered outside the European Union, in particular in the USA. The transfer of personal data to these third countries takes place exclusively on the basis of appropriate safeguards within the meaning of Art. 44 to 49 GDPR, in particular through the use of the Standard Contractual Clauses adopted by the European Commission.",
+      "securityTitle": "9. Data Security",
+      "securityText": "Appropriate technical and organizational measures are taken to protect personal data against accidental or intentional manipulation, loss, destruction, or unauthorized access by third parties, including end-to-end transport encryption (TLS) for all data transmissions.",
+      "changesTitle": "10. Changes to This Privacy Policy",
+      "changesText": "This privacy policy is updated as necessary to continue to meet current legal requirements or to reflect changes to the services described herein. The version published on this website shall apply at any given time.",
+      "contactTitle": "11. Contact and Right to Lodge a Complaint",
+      "contactText": "For questions regarding the processing of your personal data or to exercise your rights, Oskar Seeberger is available at o.seeberger@outlook.com. Without prejudice to any other administrative or judicial remedy, you also have the right to lodge a complaint with a data protection supervisory authority. The competent authority is the Bavarian State Office for Data Protection Supervision, Promenade 18, 91522 Ansbach, Germany (www.lda.bayern.de)."
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "metaDescription": "Terms of Service for consulting engagements.",
+      "lastUpdated": "Last updated: July 23, 2026",
+      "scopeTitle": "§ 1 Scope of Application",
+      "scopeText": "These Terms of Service apply to all consulting and service agreements between Oskar Seeberger, trading as LevIQ (the \"Service Provider\"), and entrepreneurs within the meaning of § 14 of the German Civil Code (BGB), freelancers, and other legal entities under public or private law (the \"Client\"). No contracts are concluded with consumers within the meaning of § 13 BGB. Conflicting or deviating terms of the Client shall not apply unless the Service Provider expressly agrees to their validity in writing.",
+      "servicesTitle": "§ 2 Subject Matter and Scope of Services",
+      "servicesIntro": "The Service Provider renders consulting services in the field of artificial intelligence and digital transformation, in particular:",
+      "servicesItems": [
+        "Design, development, and integration of AI-powered chatbot solutions",
+        "Search engine optimization and optimization for generative AI systems (SEO/GEO)",
+        "Strategic consulting on the deployment of AI technologies in a business context",
+        "Support for digital transformation and process optimization initiatives"
+      ],
+      "servicesOutro": "The specific scope of services, delivery schedule, and any milestones are set out in the individual service description, proposal, or a separately agreed Statement of Work, which forms part of the respective individual agreement.",
+      "conclusionTitle": "§ 3 Formation of Contract",
+      "conclusionText": "A contract is formed upon written confirmation of order by the Service Provider, upon mutual signature of a proposal or Statement of Work, or upon processing of the first invoice, whichever occurs first.",
+      "pricingTitle": "§ 4 Fees and Payment Terms",
+      "pricingIntro": "Fees are charged in accordance with the individually agreed service package in the form of a monthly flat fee (retainer). The following applies:",
+      "pricingItems": [
+        "Invoicing occurs monthly in advance at the beginning of the respective service month.",
+        "Payment is processed via the payment provider Stripe; the Client hereby authorizes the Service Provider to collect recurring amounts due from the stored payment method.",
+        "Invoice amounts are due immediately upon invoicing without deduction.",
+        "In the event of late payment, the Service Provider is entitled to charge default interest at the statutory rate pursuant to § 288 (2) BGB.",
+        "All stated prices are net amounts plus statutory value-added tax, where applicable; invoicing is currently issued without VAT pursuant to § 19 (1) of the German VAT Act (UStG)."
+      ],
+      "termTitle": "§ 5 Contract Term and Termination",
+      "termItems": [
+        "The minimum term is governed by the individual agreement; absent any deviating provision, the contract is deemed concluded for an indefinite period with monthly billing.",
+        "Either party may terminate the contract for convenience with 30 days' notice, effective at the end of a calendar month.",
+        "The right of either party to terminate for good cause, in particular in the event of a material breach of essential contractual obligations, remains unaffected.",
+        "Upon termination taking effect, the authorization to collect recurring payments ends; services already rendered are invoiced on a pro-rata basis."
+      ],
+      "obligationsTitle": "§ 6 Client's Duty to Cooperate",
+      "obligationsText": "The Client shall provide the Service Provider with the information, access, and resources required for the performance of services in a timely and complete manner. Delays caused by insufficient or delayed cooperation on the part of the Client shall not be attributable to the Service Provider and shall entitle the Service Provider to a reasonable adjustment of agreed deadlines.",
+      "ipTitle": "§ 7 Intellectual Property and Usage Rights",
+      "ipItems": [
+        "The Service Provider retains ownership of rights to its own methods, templates, tools, and generic concepts developed independently of any specific engagement.",
+        "Work products created specifically for the Client become the property of the Client upon full payment of the fees attributable thereto.",
+        "The Service Provider is entitled to use insights gained in the course of an engagement, in anonymized and non-identifiable form, for its own reference purposes."
+      ],
+      "confidentialityTitle": "§ 8 Confidentiality",
+      "confidentialityText": "Both parties undertake to treat all confidential information obtained from the other party in the course of the collaboration with strict confidentiality and to use it exclusively for the performance of the contract. This obligation continues to apply after termination of the contractual relationship.",
+      "dataProtectionTitle": "§ 9 Data Protection",
+      "dataProtectionText": "The processing of personal data within the scope of this contractual relationship is carried out in accordance with the applicable Privacy Policy and the requirements of the GDPR. Insofar as the Service Provider processes personal data on behalf of the Client, a separate data processing agreement pursuant to Art. 28 GDPR will be concluded upon request.",
+      "liabilityTitle": "§ 10 Liability",
+      "liabilityIntro": "The liability of the Service Provider is governed by the following principles:",
+      "liabilityItems": [
+        "For damages arising from injury to life, body, or health, as well as for intent and gross negligence, the Service Provider is liable without limitation in accordance with statutory provisions.",
+        "In the event of slightly negligent breach of material contractual obligations (cardinal obligations), liability is limited to the foreseeable damage typical for this type of contract, but in any event capped at the fees paid in the preceding twelve months.",
+        "Liability for slight negligence is otherwise excluded.",
+        "The Service Provider is liable for data loss only to the extent that such loss could not have been avoided even with proper data backup measures on the part of the Client.",
+        "No liability is assumed for any specific economic outcome of the consulting services."
+      ],
+      "warrantyTitle": "§ 11 Warranty",
+      "warrantyText": "The Service Provider's consulting services are rendered in accordance with the current state of the art and the recognized principles of proper professional practice. As these are services rather than a work product, the statutory warranty provisions applicable to contracts for work do not apply; the Service Provider owes diligent effort, not a specific outcome.",
+      "forceMajeureTitle": "§ 12 Force Majeure",
+      "forceMajeureText": "Events of force majeure that materially impede or temporarily render impossible the performance of services shall release the affected party from its obligation to perform for the duration and to the extent of such impact, without giving rise to any claims for damages by the other party.",
+      "finalTitle": "§ 13 Final Provisions",
+      "finalItems": [
+        "Amendments and supplements to these Terms and to the respective individual agreement must be made in text form.",
+        "These Terms are governed by the laws of the Federal Republic of Germany, excluding the UN Convention on Contracts for the International Sale of Goods (CISG).",
+        "The exclusive place of jurisdiction for all disputes arising from or in connection with this contractual relationship is, to the extent legally permissible, Munich, Germany.",
+        "Should any provision of these Terms be or become invalid, the validity of the remaining provisions shall remain unaffected."
+      ]
+    }
+  },
   "Footer": {
     "tagline": "Beautify your app with efferd.",
     "resourcesTitle": "Resources",
@@ -49,8 +211,9 @@
       "aboutUs": "About Us",
       "careers": "Careers",
       "brandAssets": "Brand assets",
-      "privacyPolicy": "Privacy Policy",
-      "termsOfService": "Terms of Service"
+      "privacyPolicy": "Privacy",
+      "termsOfService": "Terms",
+      "imprint": "Imprint"
     },
     "copyright": "© {year} LevIQ, All rights reserved"
   }

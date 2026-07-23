@@ -1,6 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 import { GithubIcon } from "@/components/icons/github-icon";
 import { InstagramIcon } from "@/components/icons/instagram-icon";
@@ -25,15 +26,22 @@ export function Footer() {
       title: t("company.brandAssets"),
       href: "#",
     },
+  ];
+
+  const legal = [
     {
       title: t("company.privacyPolicy"),
-      href: "#",
+      href: "/legal/privacy-policy",
     },
     {
       title: t("company.termsOfService"),
-      href: "#",
+      href: "/legal/terms-of-service",
     },
-  ];
+    {
+      title: t("company.imprint"),
+      href: "/legal/imprint",
+    },
+  ] as const;
 
   const resources = [
     {
@@ -117,6 +125,15 @@ export function Footer() {
               >
                 {title}
               </a>
+            ))}
+            {legal.map(({ href, title }) => (
+              <Link
+                className="w-max text-sm hover:underline"
+                href={href}
+                key={title}
+              >
+                {title}
+              </Link>
             ))}
           </div>
         </div>
