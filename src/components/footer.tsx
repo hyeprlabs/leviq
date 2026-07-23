@@ -1,6 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { GithubIcon } from "@/components/icons/github-icon";
 import { InstagramIcon } from "@/components/icons/instagram-icon";
@@ -27,11 +28,19 @@ export function Footer() {
     },
     {
       title: t("company.privacyPolicy"),
-      href: "#",
+      href: "/legal/privacy",
     },
     {
       title: t("company.termsOfService"),
-      href: "#",
+      href: "/legal/terms",
+    },
+    {
+      title: t("company.imprint"),
+      href: "/legal/imprint",
+    },
+    {
+      title: t("company.withdrawal"),
+      href: "/legal/withdrawal",
     },
   ];
 
@@ -110,13 +119,13 @@ export function Footer() {
           </span>
           <div className="mt-2 flex flex-col gap-2">
             {company.map(({ href, title }) => (
-              <a
+              <Link
                 className="w-max text-sm hover:underline"
                 href={href}
                 key={title}
               >
                 {title}
-              </a>
+              </Link>
             ))}
           </div>
         </div>

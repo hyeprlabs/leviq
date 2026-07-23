@@ -50,7 +50,9 @@
       "careers": "Careers",
       "brandAssets": "Brand assets",
       "privacyPolicy": "Privacy Policy",
-      "termsOfService": "Terms of Service"
+      "termsOfService": "Terms of Service",
+      "imprint": "Imprint",
+      "withdrawal": "Right of Withdrawal"
     },
     "copyright": "© {year} LevIQ, All rights reserved"
   }
