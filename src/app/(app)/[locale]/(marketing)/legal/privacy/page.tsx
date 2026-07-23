@@ -16,24 +16,6 @@ function List({ items }: { items: string[] }) {
   );
 }
 
-function Processor({
-  name,
-  location,
-  text,
-}: {
-  name: string;
-  location?: string;
-  text: string;
-}) {
-  return (
-    <div className="space-y-1 border-border border-l pl-4">
-      <p className="font-medium text-foreground">{name}</p>
-      {location && <p className="text-xs">{location}</p>}
-      <p>{text}</p>
-    </div>
-  );
-}
-
 export default function PrivacyPage() {
   const t = useTranslations("Legal.privacy");
 
@@ -59,25 +41,7 @@ export default function PrivacyPage() {
 
       <LegalSection title={t("processorsTitle")}>
         <p>{t("processorsIntro")}</p>
-        <div className="space-y-4 pt-2">
-          <Processor
-            name={t("vercelTitle")}
-            location={t("vercelLocation")}
-            text={t("vercelText")}
-          />
-          <Processor
-            name={t("stripeTitle")}
-            location={t("stripeLocation")}
-            text={t("stripeText")}
-          />
-          <Processor
-            name={t("posthogTitle")}
-            location={t("posthogLocation")}
-            text={t("posthogText")}
-          />
-          <Processor name={t("attioTitle")} text={t("attioText")} />
-          <Processor name={t("resendTitle")} text={t("resendText")} />
-        </div>
+        <List items={t.raw("processorsItems")} />
       </LegalSection>
 
       <LegalSection title={t("cookiesTitle")}>

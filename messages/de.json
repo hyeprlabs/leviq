@@ -47,8 +47,6 @@
       "phone": "+49 159 050 90 161",
       "emailLabel": "E-Mail",
       "email": "o.seeberger@outlook.com",
-      "representedTitle": "Vertretungsberechtigt",
-      "representedText": "Oskar Seeberger, als Einzelunternehmer im eigenen Namen handelnd.",
       "vatTitle": "Umsatzsteuer",
       "vatText": "Gemäß § 19 Abs. 1 UStG wird auf den Ausweis der Umsatzsteuer verzichtet (Kleinunternehmerregelung). Eine Umsatzsteuer-Identifikationsnummer liegt daher nicht vor.",
       "editorialTitle": "Verantwortlich für den Inhalt gemäß § 18 Abs. 2 MStV",
@@ -85,20 +83,14 @@
         "Art. 6 Abs. 1 lit. c DSGVO – zur Erfüllung rechtlicher Verpflichtungen, etwa handels- und steuerrechtlicher Aufbewahrungspflichten"
       ],
       "processorsTitle": "4. Auftragsverarbeiter und Empfänger von Daten",
-      "processorsIntro": "Zur Bereitstellung der Website und zur Abwicklung der Geschäftsbeziehung werden folgende sorgfältig ausgewählte Auftragsverarbeiter und Dienstleister eingesetzt. Mit sämtlichen Auftragsverarbeitern besteht, soweit gesetzlich erforderlich, ein Auftragsverarbeitungsvertrag gemäß Art. 28 DSGVO.",
-      "vercelTitle": "Vercel Inc. – Hosting und Infrastruktur",
-      "vercelLocation": "Rechenzentrumsstandort: Frankfurt am Main, Deutschland",
-      "vercelText": "Vercel stellt die technische Infrastruktur zum Betrieb dieser Website bereit und verarbeitet in diesem Zusammenhang Server-Logfiles, IP-Adressen sowie technisch notwendige Session-Informationen. Der Auftragsverarbeitungsvertrag mit Vercel enthält EU-Standardvertragsklauseln gemäß Art. 46 Abs. 2 lit. c DSGVO.",
-      "stripeTitle": "Stripe Payments Europe, Ltd. – Zahlungsabwicklung",
-      "stripeLocation": "Sitz: Dublin, Irland",
-      "stripeText": "Stripe verarbeitet Zahlungs-, Rechnungs- und Abonnementdaten im Rahmen der Vertragsdurchführung. Stripe ist PCI-DSS-zertifiziert und unterliegt eigenen, gesetzlichen Aufbewahrungspflichten für Zahlungsbelege.",
-      "posthogTitle": "PostHog Inc. – Webanalyse",
-      "posthogLocation": "Sitz: San Francisco, USA",
-      "posthogText": "PostHog wird zur pseudonymisierten Analyse des Nutzungsverhaltens eingesetzt, um das Angebot bedarfsgerecht weiterzuentwickeln. Eine Zusammenführung der Daten mit anderen Quellen findet nicht statt. Die Übermittlung in die USA erfolgt auf Grundlage von EU-Standardvertragsklauseln.",
-      "attioTitle": "Attio – Kundenverwaltung (CRM)",
-      "attioText": "Attio dient der internen Verwaltung von Geschäftskontakten und Projektinformationen im Rahmen bestehender oder angebahnter Geschäftsbeziehungen.",
-      "resendTitle": "Resend – E-Mail-Versand",
-      "resendText": "Resend wird für den Versand transaktionsbezogener E-Mails, etwa Auftragsbestätigungen und Benachrichtigungen, eingesetzt.",
+      "processorsIntro": "Zur Bereitstellung der Website und zur Abwicklung der Geschäftsbeziehung werden folgende sorgfältig ausgewählte Auftragsverarbeiter und Dienstleister eingesetzt. Mit sämtlichen Auftragsverarbeitern besteht, soweit gesetzlich erforderlich, ein Auftragsverarbeitungsvertrag gemäß Art. 28 DSGVO:",
+      "processorsItems": [
+        "Vercel Inc. (Hosting und Infrastruktur, Rechenzentrumsstandort Frankfurt am Main): verarbeitet Server-Logfiles, IP-Adressen sowie technisch notwendige Session-Informationen. Der Auftragsverarbeitungsvertrag enthält EU-Standardvertragsklauseln gemäß Art. 46 Abs. 2 lit. c DSGVO.",
+        "Stripe Payments Europe, Ltd. (Zahlungsabwicklung, Sitz: Dublin, Irland): verarbeitet Zahlungs-, Rechnungs- und Abonnementdaten im Rahmen der Vertragsdurchführung. Stripe ist PCI-DSS-zertifiziert und unterliegt eigenen gesetzlichen Aufbewahrungspflichten für Zahlungsbelege.",
+        "PostHog Inc. (Webanalyse, Sitz: San Francisco, USA): erfasst pseudonymisierte Nutzungsdaten zur bedarfsgerechten Weiterentwicklung des Angebots. Eine Zusammenführung mit anderen Quellen findet nicht statt. Die Übermittlung in die USA erfolgt auf Grundlage von EU-Standardvertragsklauseln.",
+        "Attio (Kundenverwaltung/CRM): dient der internen Verwaltung von Geschäftskontakten und Projektinformationen im Rahmen bestehender oder angebahnter Geschäftsbeziehungen.",
+        "Resend (E-Mail-Versand): wird für den Versand transaktionsbezogener E-Mails, etwa Auftragsbestätigungen und Benachrichtigungen, eingesetzt."
+      ],
       "cookiesTitle": "5. Cookies und vergleichbare Technologien",
       "cookiesIntro": "Diese Website verwendet ausschließlich technisch notwendige Cookies sowie pseudonymisierte Analysetechnologien; ein Einsatz von Marketing- oder Tracking-Cookies Dritter findet nicht statt.",
       "cookieTypes": [
@@ -138,7 +130,7 @@
       "title": "Allgemeine Geschäftsbedingungen",
       "lastUpdated": "Stand: 23. Juli 2026",
       "scopeTitle": "§ 1 Geltungsbereich",
-      "scopeText": "Diese Allgemeinen Geschäftsbedingungen gelten für sämtliche Beratungs- und Dienstleistungsverträge zwischen Oskar Seeberger, handelnd unter LevIQ (nachfolgend „Auftragnehmer”), und Unternehmern im Sinne des § 14 BGB, Freiberuflern sowie sonstigen juristischen Personen des öffentlichen und privaten Rechts (nachfolgend „Auftraggeber”). Verträge mit Verbrauchern im Sinne des § 13 BGB werden nicht geschlossen. Entgegenstehende oder von diesen Bedingungen abweichende Bedingungen des Auftraggebers finden keine Anwendung, es sei denn, der Auftragnehmer stimmt ihrer Geltung ausdrücklich schriftlich zu.",
+      "scopeText": "Diese Allgemeinen Geschäftsbedingungen gelten für sämtliche Beratungs- und Dienstleistungsverträge zwischen Oskar Seeberger, handelnd unter LevIQ (nachfolgend „Auftragnehmer“), und Unternehmern im Sinne des § 14 BGB, Freiberuflern sowie sonstigen juristischen Personen des öffentlichen und privaten Rechts (nachfolgend „Auftraggeber“). Verträge mit Verbrauchern im Sinne des § 13 BGB werden nicht geschlossen. Entgegenstehende oder von diesen Bedingungen abweichende Bedingungen des Auftraggebers finden keine Anwendung, es sei denn, der Auftragnehmer stimmt ihrer Geltung ausdrücklich schriftlich zu.",
       "servicesTitle": "§ 2 Vertragsgegenstand und Leistungsumfang",
       "servicesIntro": "Der Auftragnehmer erbringt Beratungsleistungen im Bereich künstliche Intelligenz und digitale Transformation, insbesondere:",
       "servicesItems": [
@@ -198,20 +190,6 @@
         "Ausschließlicher Gerichtsstand für sämtliche Streitigkeiten aus oder im Zusammenhang mit diesem Vertragsverhältnis ist, soweit gesetzlich zulässig, München.",
         "Sollte eine Bestimmung dieser Bedingungen unwirksam sein oder werden, bleibt die Wirksamkeit der übrigen Bestimmungen hiervon unberührt."
       ]
-    },
-    "withdrawal": {
-      "title": "Hinweis zum Widerrufsrecht",
-      "lastUpdated": "Stand: 23. Juli 2026",
-      "noticeTitle": "Kein Verbraucherwiderrufsrecht",
-      "noticeText": "LevIQ (Oskar Seeberger) schließt Verträge ausschließlich mit Unternehmern im Sinne des § 14 BGB, Freiberuflern und juristischen Personen ab. Das gesetzliche Widerrufsrecht für Verbraucherverträge nach §§ 312g, 355 BGB knüpft an die Verbrauchereigenschaft im Sinne des § 13 BGB an und findet auf die von LevIQ geschlossenen Verträge daher keine Anwendung.",
-      "terminationTitle": "Ordentliches Kündigungsrecht",
-      "terminationText": "An die Stelle eines Widerrufsrechts tritt das in § 5 der Allgemeinen Geschäftsbedingungen geregelte ordentliche Kündigungsrecht: Der Vertrag kann von beiden Parteien mit einer Frist von 30 Tagen zum Ende eines Kalendermonats gekündigt werden.",
-      "extraordinaryTitle": "Außerordentliche Kündigung",
-      "extraordinaryText": "Das Recht zur außerordentlichen Kündigung aus wichtigem Grund bleibt hiervon unberührt und richtet sich ebenfalls nach § 5 der Allgemeinen Geschäftsbedingungen.",
-      "paymentTitle": "Zahlungsverpflichtung während der Vertragslaufzeit",
-      "paymentText": "Da die Vergütung als monatliche Pauschale (Retainer) vereinbart wird, besteht die Zahlungsverpflichtung unabhängig davon, in welchem Umfang die Beratungsleistungen im jeweiligen Abrechnungszeitraum in Anspruch genommen wurden. Bereits erbrachte Zahlungen werden nicht rückerstattet.",
-      "contactTitle": "Kontakt",
-      "contactText": "Bei Fragen zu dieser Vertragsbeziehung wenden Sie sich bitte an Oskar Seeberger, o.seeberger@outlook.com, +49 159 050 90 161."
     }
   },
   "Footer": {
@@ -229,10 +207,9 @@
       "aboutUs": "Über uns",
       "careers": "Karrieren",
       "brandAssets": "Markenressourcen",
-      "privacyPolicy": "Datenschutzerklärung",
+      "privacyPolicy": "Datenschutz",
       "termsOfService": "AGB",
-      "imprint": "Impressum",
-      "withdrawal": "Widerrufsbelehrung"
+      "imprint": "Impressum"
     },
     "copyright": "© {year} LevIQ, Alle Rechte vorbehalten"
   }

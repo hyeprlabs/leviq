@@ -48,8 +48,6 @@
       "phone": "+49 159 050 90 161",
       "emailLabel": "Email",
       "email": "o.seeberger@outlook.com",
-      "representedTitle": "Authorized Representative",
-      "representedText": "Oskar Seeberger, acting in his own name as sole proprietor.",
       "vatTitle": "VAT",
       "vatText": "Pursuant to § 19 (1) of the German VAT Act (UStG), no value-added tax is charged (small business exemption). No VAT identification number has therefore been issued.",
       "editorialTitle": "Responsible for editorial content pursuant to § 18 (2) MStV",
@@ -86,20 +84,14 @@
         "Art. 6 (1) (c) GDPR – to comply with legal obligations, such as commercial and tax retention requirements"
       ],
       "processorsTitle": "4. Data Processors and Recipients",
-      "processorsIntro": "The following carefully selected data processors and service providers are engaged to operate this website and manage the business relationship. Data processing agreements pursuant to Art. 28 GDPR are in place with all processors where legally required.",
-      "vercelTitle": "Vercel Inc. – Hosting and Infrastructure",
-      "vercelLocation": "Data center location: Frankfurt am Main, Germany",
-      "vercelText": "Vercel provides the technical infrastructure for operating this website and, in this context, processes server log files, IP addresses, and technically necessary session information. The data processing agreement with Vercel includes EU Standard Contractual Clauses pursuant to Art. 46 (2) (c) GDPR.",
-      "stripeTitle": "Stripe Payments Europe, Ltd. – Payment Processing",
-      "stripeLocation": "Headquarters: Dublin, Ireland",
-      "stripeText": "Stripe processes payment, invoicing, and subscription data in connection with the performance of the contract. Stripe is PCI-DSS certified and is subject to its own statutory retention obligations for payment records.",
-      "posthogTitle": "PostHog Inc. – Web Analytics",
-      "posthogLocation": "Headquarters: San Francisco, USA",
-      "posthogText": "PostHog is used for the pseudonymized analysis of usage behavior in order to further develop the service as needed. Data is not combined with other sources. The transfer to the USA is based on EU Standard Contractual Clauses.",
-      "attioTitle": "Attio – Customer Relationship Management",
-      "attioText": "Attio is used for the internal management of business contacts and project information within existing or prospective business relationships.",
-      "resendTitle": "Resend – Email Delivery",
-      "resendText": "Resend is used to send transaction-related emails, such as order confirmations and notifications.",
+      "processorsIntro": "The following carefully selected data processors and service providers are engaged to operate this website and manage the business relationship. Data processing agreements pursuant to Art. 28 GDPR are in place with all processors where legally required:",
+      "processorsItems": [
+        "Vercel Inc. (hosting and infrastructure, data center location: Frankfurt am Main, Germany): processes server log files, IP addresses, and technically necessary session information. The data processing agreement includes EU Standard Contractual Clauses pursuant to Art. 46 (2) (c) GDPR.",
+        "Stripe Payments Europe, Ltd. (payment processing, headquarters: Dublin, Ireland): processes payment, invoicing, and subscription data in connection with the performance of the contract. Stripe is PCI-DSS certified and is subject to its own statutory retention obligations for payment records.",
+        "PostHog Inc. (web analytics, headquarters: San Francisco, USA): collects pseudonymized usage data to further develop the service as needed. Data is not combined with other sources. The transfer to the USA is based on EU Standard Contractual Clauses.",
+        "Attio (customer relationship management): used for the internal management of business contacts and project information within existing or prospective business relationships.",
+        "Resend (email delivery): used to send transaction-related emails, such as order confirmations and notifications."
+      ],
       "cookiesTitle": "5. Cookies and Similar Technologies",
       "cookiesIntro": "This website uses only technically necessary cookies and pseudonymized analytics technology; no third-party marketing or tracking cookies are used.",
       "cookieTypes": [
@@ -199,20 +191,6 @@
         "The exclusive place of jurisdiction for all disputes arising from or in connection with this contractual relationship is, to the extent legally permissible, Munich, Germany.",
         "Should any provision of these Terms be or become invalid, the validity of the remaining provisions shall remain unaffected."
       ]
-    },
-    "withdrawal": {
-      "title": "Notice on the Right of Withdrawal",
-      "lastUpdated": "Last updated: July 23, 2026",
-      "noticeTitle": "No Consumer Right of Withdrawal",
-      "noticeText": "LevIQ (Oskar Seeberger) concludes contracts exclusively with entrepreneurs within the meaning of § 14 of the German Civil Code (BGB), freelancers, and legal entities. The statutory right of withdrawal for consumer contracts under §§ 312g, 355 BGB is tied to consumer status within the meaning of § 13 BGB and therefore does not apply to contracts concluded by LevIQ.",
-      "terminationTitle": "Ordinary Right of Termination",
-      "terminationText": "In place of a right of withdrawal, the ordinary right of termination set out in § 5 of the Terms of Service applies: either party may terminate the contract with 30 days' notice, effective at the end of a calendar month.",
-      "extraordinaryTitle": "Extraordinary Termination",
-      "extraordinaryText": "The right to terminate for good cause remains unaffected and is likewise governed by § 5 of the Terms of Service.",
-      "paymentTitle": "Payment Obligation During the Contract Term",
-      "paymentText": "As the fee is agreed as a monthly flat rate (retainer), the payment obligation exists irrespective of the extent to which consulting services were utilized during the respective billing period. Payments already made are non-refundable.",
-      "contactTitle": "Contact",
-      "contactText": "For questions regarding this contractual relationship, please contact Oskar Seeberger at o.seeberger@outlook.com or +49 159 050 90 161."
     }
   },
   "Footer": {
@@ -230,10 +208,9 @@
       "aboutUs": "About Us",
       "careers": "Careers",
       "brandAssets": "Brand assets",
-      "privacyPolicy": "Privacy Policy",
-      "termsOfService": "Terms of Service",
-      "imprint": "Imprint",
-      "withdrawal": "Right of Withdrawal"
+      "privacyPolicy": "Privacy",
+      "termsOfService": "Terms",
+      "imprint": "Imprint"
     },
     "copyright": "© {year} LevIQ, All rights reserved"
   }

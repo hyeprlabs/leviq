@@ -40,10 +40,6 @@ export default function ImprintPage() {
         </p>
       </LegalSection>
 
-      <LegalSection title={t("representedTitle")}>
-        <p>{t("representedText")}</p>
-      </LegalSection>
-
       <LegalSection title={t("vatTitle")}>
         <p>{t("vatText")}</p>
       </LegalSection>

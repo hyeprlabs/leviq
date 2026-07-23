@@ -38,10 +38,6 @@ export function Footer() {
       title: t("company.imprint"),
       href: "/legal/imprint",
     },
-    {
-      title: t("company.withdrawal"),
-      href: "/legal/withdrawal",
-    },
   ];
 
   const resources = [

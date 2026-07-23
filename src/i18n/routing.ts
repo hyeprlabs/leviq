@@ -30,9 +30,5 @@ export const routing = defineRouting({
       en: "/legal/terms",
       de: "/agb",
     },
-    "/legal/withdrawal": {
-      en: "/legal/withdrawal",
-      de: "/widerruf",
-    },
   },
 });
