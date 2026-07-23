@@ -36,6 +36,7 @@
   "Legal": {
     "impressum": {
       "title": "Impressum",
+      "metaDescription": "Impressum und rechtliche Angaben gemäß § 5 TMG.",
       "lastUpdated": "Stand: 23. Juli 2026",
       "section1Title": "Angaben gemäß § 5 TMG",
       "operator": "Oskar Seeberger",
@@ -62,6 +63,7 @@
     },
     "privacy": {
       "title": "Datenschutzerklärung",
+      "metaDescription": "Informationen zur Verarbeitung personenbezogener Daten gemäß DSGVO.",
       "lastUpdated": "Stand: 23. Juli 2026",
       "intro": "Der Schutz Ihrer personenbezogenen Daten ist mir ein wichtiges Anliegen. Nachfolgend informiere ich Sie gemäß Art. 13 und Art. 14 der Datenschutz-Grundverordnung (DSGVO) umfassend über Art, Umfang und Zweck der Verarbeitung personenbezogener Daten im Rahmen dieses Onlineangebots sowie im Zuge bestehender Geschäftsbeziehungen.",
       "controllerTitle": "1. Verantwortlicher",
@@ -128,6 +130,7 @@
     },
     "terms": {
       "title": "Allgemeine Geschäftsbedingungen",
+      "metaDescription": "Allgemeine Geschäftsbedingungen für Beratungsleistungen.",
       "lastUpdated": "Stand: 23. Juli 2026",
       "scopeTitle": "§ 1 Geltungsbereich",
       "scopeText": "Diese Allgemeinen Geschäftsbedingungen gelten für sämtliche Beratungs- und Dienstleistungsverträge zwischen Oskar Seeberger, handelnd unter LevIQ (nachfolgend „Auftragnehmer“), und Unternehmern im Sinne des § 14 BGB, Freiberuflern sowie sonstigen juristischen Personen des öffentlichen und privaten Rechts (nachfolgend „Auftraggeber“). Verträge mit Verbrauchern im Sinne des § 13 BGB werden nicht geschlossen. Entgegenstehende oder von diesen Bedingungen abweichende Bedingungen des Auftraggebers finden keine Anwendung, es sei denn, der Auftragnehmer stimmt ihrer Geltung ausdrücklich schriftlich zu.",

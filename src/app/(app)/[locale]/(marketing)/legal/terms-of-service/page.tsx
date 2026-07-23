@@ -1,10 +1,18 @@
+import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import { LegalPageLayout, LegalSection } from "@/components/legal/legal-page-layout";
 
-export const metadata = {
-  title: "Allgemeine Geschäftsbedingungen",
-  description: "Allgemeine Geschäftsbedingungen für Beratungsleistungen",
-};
+type Props = { params: Promise<{ locale: string }> };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "Legal.terms" });
+  return {
+    title: t("title"),
+    description: t("metaDescription"),
+  };
+}
 
 function List({ items }: { items: string[] }) {
   return (

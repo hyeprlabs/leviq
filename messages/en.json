@@ -37,6 +37,7 @@
   "Legal": {
     "impressum": {
       "title": "Imprint",
+      "metaDescription": "Imprint and legal information pursuant to § 5 TMG.",
       "lastUpdated": "Last updated: July 23, 2026",
       "section1Title": "Information pursuant to § 5 TMG (German Telemedia Act)",
       "operator": "Oskar Seeberger",
@@ -63,6 +64,7 @@
     },
     "privacy": {
       "title": "Privacy Policy",
+      "metaDescription": "Information on the processing of personal data pursuant to the GDPR.",
       "lastUpdated": "Last updated: July 23, 2026",
       "intro": "The protection of your personal data is important to me. In the following, I inform you comprehensively, in accordance with Art. 13 and Art. 14 of the General Data Protection Regulation (GDPR), about the nature, scope, and purpose of the processing of personal data within the scope of this online offering and in the course of existing business relationships.",
       "controllerTitle": "1. Data Controller",
@@ -129,6 +131,7 @@
     },
     "terms": {
       "title": "Terms of Service",
+      "metaDescription": "Terms of Service for consulting engagements.",
       "lastUpdated": "Last updated: July 23, 2026",
       "scopeTitle": "§ 1 Scope of Application",
       "scopeText": "These Terms of Service apply to all consulting and service agreements between Oskar Seeberger, trading as LevIQ (the \"Service Provider\"), and entrepreneurs within the meaning of § 14 of the German Civil Code (BGB), freelancers, and other legal entities under public or private law (the \"Client\"). No contracts are concluded with consumers within the meaning of § 13 BGB. Conflicting or deviating terms of the Client shall not apply unless the Service Provider expressly agrees to their validity in writing.",
