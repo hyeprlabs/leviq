@@ -12,7 +12,7 @@ function Section({
   title,
   children,
 }: {
-  id: string;
+  id?: string;
   title: string;
   children: React.ReactNode;
 }) {
