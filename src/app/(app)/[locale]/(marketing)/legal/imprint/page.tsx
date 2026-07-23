@@ -1,119 +1,72 @@
-import { useLocale, useTranslations } from "next-intl";
-import { LegalPageLayout } from "@/components/legal/legal-page-layout";
-import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { LegalPageLayout, LegalSection } from "@/components/legal/legal-page-layout";
 
 export const metadata = {
   title: "Impressum | LevIQ",
-  description: "Impressum und rechtliche Informationen",
+  description: "Impressum und rechtliche Angaben gemäß § 5 TMG",
 };
 
-function Section({
-  id,
-  title,
-  children,
-}: {
-  id?: string;
-  title: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <section id={id} className="space-y-3">
-      <h2 className="text-lg font-semibold">{title}</h2>
-      <div className="text-sm leading-relaxed text-foreground">{children}</div>
-    </section>
-  );
-}
-
 export default function ImprintPage() {
-  const locale = useLocale();
-  const isGerman = locale === "de";
   const t = useTranslations("Legal.impressum");
 
-  const toc = [
-    { id: "tmg", label: t("toc.0.label") },
-    { id: "contact", label: t("toc.1.label") },
-    { id: "businessForm", label: t("toc.2.label") },
-    { id: "vat", label: t("toc.3.label") },
-    { id: "liability", label: t("toc.4.label") },
-    { id: "links", label: t("toc.5.label") },
-  ];
-
   return (
-    <LegalPageLayout
-      title={t("title")}
-      lastUpdated={t("lastUpdated")}
-      toc={toc}
-    >
-      <div className="space-y-8">
-        <Section id="tmg" title={t("tmgTitle") || t("toc.0.label")}>
-          <div className="space-y-2">
-            <p>
-              <strong>{t("operator")}</strong>
-              <br />
-              {t("address")}
-            </p>
-          </div>
-        </Section>
+    <LegalPageLayout title={t("title")} lastUpdated={t("lastUpdated")}>
+      <LegalSection title={t("section1Title")}>
+        <p className="text-foreground">
+          {t("operator")}
+          <br />
+          {t("addressLine1")}
+          <br />
+          {t("addressLine2")}
+          <br />
+          {t("addressLine3")}
+        </p>
+      </LegalSection>
 
-        <Section id="contact" title={t("toc.1.label")}>
-          <div className="space-y-1 text-sm">
-            <p>
-              <strong>E-Mail:</strong>{" "}
-              <a
-                href={`mailto:${t("email")}`}
-                className="hover:underline text-foreground"
-              >
-                {t("email")}
-              </a>
-            </p>
-            <p>
-              <strong>Telefon:</strong>{" "}
-              <a
-                href={`tel:${t("phone")}`}
-                className="hover:underline text-foreground"
-              >
-                {t("phone")}
-              </a>
-            </p>
-          </div>
-        </Section>
+      <LegalSection title={t("contactTitle")}>
+        <p>
+          {t("phoneLabel")}:{" "}
+          <a href={`tel:${t("phone")}`} className="text-foreground hover:underline">
+            {t("phone")}
+          </a>
+          <br />
+          {t("emailLabel")}:{" "}
+          <a
+            href={`mailto:${t("email")}`}
+            className="text-foreground hover:underline"
+          >
+            {t("email")}
+          </a>
+        </p>
+      </LegalSection>
 
-        <Section id="businessForm" title={t("businessFormTitle")}>
-          <p>{t("businessFormText")}</p>
-        </Section>
+      <LegalSection title={t("representedTitle")}>
+        <p>{t("representedText")}</p>
+      </LegalSection>
 
-        <Section id="vat" title={t("vatTitle")}>
-          <p>{t("vatText")}</p>
-        </Section>
+      <LegalSection title={t("vatTitle")}>
+        <p>{t("vatText")}</p>
+      </LegalSection>
 
-        <Section id="liability" title={t("liabilityTitle")}>
-          <p>{t("liabilityText")}</p>
-        </Section>
+      <LegalSection title={t("editorialTitle")}>
+        <p>{t("editorialText")}</p>
+      </LegalSection>
 
-        <Section id="links" title={t("linksTitle")}>
-          <p>{t("linksText")}</p>
-        </Section>
+      <LegalSection title={t("disputeTitle")}>
+        <p>{t("disputeText")}</p>
+      </LegalSection>
 
-        <Section title={t("copyrightTitle")}>
-          <p>{t("copyrightText")}</p>
-        </Section>
+      <LegalSection title={t("liabilityContentTitle")}>
+        <p>{t("liabilityContentText")}</p>
+      </LegalSection>
 
-        <Section title={t("disclaimerTitle")}>
-          <p>{t("disclaimerText")}</p>
-        </Section>
+      <LegalSection title={t("liabilityLinksTitle")}>
+        <p>{t("liabilityLinksText")}</p>
+      </LegalSection>
 
-        <div className="border-t pt-8 mt-8">
-          <p className="text-sm text-muted-foreground">
-            {isGerman ? "Siehe auch: " : "See also: "}
-            <Link
-              href="/legal/privacy"
-              className="underline hover:no-underline"
-            >
-              {isGerman ? "Datenschutzerklärung" : "Privacy Policy"}
-            </Link>
-          </p>
-        </div>
-      </div>
+      <LegalSection title={t("copyrightTitle")}>
+        <p>{t("copyrightText")}</p>
+      </LegalSection>
     </LegalPageLayout>
   );
 }

@@ -1,118 +1,81 @@
-import { useLocale, useTranslations } from "next-intl";
-import { LegalPageLayout } from "@/components/legal/legal-page-layout";
-import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { LegalPageLayout, LegalSection } from "@/components/legal/legal-page-layout";
 
 export const metadata = {
-  title: "AGB | LevIQ",
-  description: "Allgemeine Geschäftsbedingungen und Servicebedingungen",
+  title: "Allgemeine Geschäftsbedingungen | LevIQ",
+  description: "Allgemeine Geschäftsbedingungen für Beratungsleistungen",
 };
 
-function Section({
-  id,
-  title,
-  children,
-}: {
-  id?: string;
-  title: string;
-  children: React.ReactNode;
-}) {
+function List({ items }: { items: string[] }) {
   return (
-    <section id={id} className="space-y-3">
-      <h2 className="text-lg font-semibold">{title}</h2>
-      <div className="text-sm leading-relaxed text-foreground">{children}</div>
-    </section>
+    <ul className="list-disc space-y-1.5 pl-5">
+      {items.map((item) => (
+        <li key={item}>{item}</li>
+      ))}
+    </ul>
   );
 }
 
 export default function TermsPage() {
-  const locale = useLocale();
-  const isGerman = locale === "de";
   const t = useTranslations("Legal.terms");
 
-  const toc = [
-    { id: "scope", label: t("toc.0.label") },
-    { id: "services", label: t("toc.1.label") },
-    { id: "pricing", label: t("toc.2.label") },
-    { id: "term", label: t("toc.3.label") },
-    { id: "performance", label: t("toc.4.label") },
-    { id: "ip", label: t("toc.5.label") },
-    { id: "liability", label: t("toc.6.label") },
-    { id: "law", label: t("toc.7.label") },
-  ];
-
   return (
-    <LegalPageLayout
-      title={t("title")}
-      lastUpdated={t("lastUpdated")}
-      toc={toc}
-    >
-      <div className="space-y-8">
-        <Section id="scope" title={t("scopeTitle")}>
-          <p>{t("scopeText")}</p>
-        </Section>
+    <LegalPageLayout title={t("title")} lastUpdated={t("lastUpdated")}>
+      <LegalSection title={t("scopeTitle")}>
+        <p>{t("scopeText")}</p>
+      </LegalSection>
 
-        <Section id="services" title={t("servicesTitle")}>
-          <p className="mb-3">{t("servicesText")}</p>
-          <ul className="space-y-1 list-disc pl-5">
-            {[0, 1, 2, 3, 4].map((i) => (
-              <li key={i}>{t(`servicesItems.${i}`)}</li>
-            ))}
-          </ul>
-        </Section>
+      <LegalSection title={t("servicesTitle")}>
+        <p>{t("servicesIntro")}</p>
+        <List items={t.raw("servicesItems")} />
+        <p>{t("servicesOutro")}</p>
+      </LegalSection>
 
-        <Section id="pricing" title={t("pricingTitle")}>
-          <p className="mb-3">{t("pricingIntro")}</p>
-          <ul className="space-y-2 list-disc pl-5">
-            {[0, 1, 2, 3, 4].map((i) => (
-              <li key={i}>{t(`pricingItems.${i}`)}</li>
-            ))}
-          </ul>
-        </Section>
+      <LegalSection title={t("conclusionTitle")}>
+        <p>{t("conclusionText")}</p>
+      </LegalSection>
 
-        <Section id="term" title={t("termTitle")}>
-          <ul className="space-y-2 list-disc pl-5">
-            {[0, 1, 2, 3].map((i) => (
-              <li key={i}>{t(`termItems.${i}`)}</li>
-            ))}
-          </ul>
-        </Section>
+      <LegalSection title={t("pricingTitle")}>
+        <p>{t("pricingIntro")}</p>
+        <List items={t.raw("pricingItems")} />
+      </LegalSection>
 
-        <Section id="performance" title={t("performanceTitle")}>
-          <p>{t("performanceText")}</p>
-        </Section>
+      <LegalSection title={t("termTitle")}>
+        <List items={t.raw("termItems")} />
+      </LegalSection>
 
-        <Section id="ip" title={t("ipTitle")}>
-          <ul className="space-y-1 list-disc pl-5">
-            {[0, 1, 2].map((i) => (
-              <li key={i}>{t(`ipItems.${i}`)}</li>
-            ))}
-          </ul>
-        </Section>
+      <LegalSection title={t("obligationsTitle")}>
+        <p>{t("obligationsText")}</p>
+      </LegalSection>
 
-        <Section id="liability" title={t("liabilityTitle")}>
-          <ul className="space-y-1 list-disc pl-5">
-            {[0, 1, 2, 3, 4].map((i) => (
-              <li key={i}>{t(`liabilityItems.${i}`)}</li>
-            ))}
-          </ul>
-        </Section>
+      <LegalSection title={t("ipTitle")}>
+        <List items={t.raw("ipItems")} />
+      </LegalSection>
 
-        <Section id="law" title={t("lawTitle")}>
-          <p>{t("lawText")}</p>
-        </Section>
+      <LegalSection title={t("confidentialityTitle")}>
+        <p>{t("confidentialityText")}</p>
+      </LegalSection>
 
-        <div className="border-t pt-8 mt-8">
-          <p className="text-sm text-muted-foreground">
-            {isGerman ? "Siehe auch: " : "See also: "}
-            <Link
-              href="/legal/privacy"
-              className="underline hover:no-underline"
-            >
-              {isGerman ? "Datenschutzerklärung" : "Privacy Policy"}
-            </Link>
-          </p>
-        </div>
-      </div>
+      <LegalSection title={t("dataProtectionTitle")}>
+        <p>{t("dataProtectionText")}</p>
+      </LegalSection>
+
+      <LegalSection title={t("liabilityTitle")}>
+        <p>{t("liabilityIntro")}</p>
+        <List items={t.raw("liabilityItems")} />
+      </LegalSection>
+
+      <LegalSection title={t("warrantyTitle")}>
+        <p>{t("warrantyText")}</p>
+      </LegalSection>
+
+      <LegalSection title={t("forceMajeureTitle")}>
+        <p>{t("forceMajeureText")}</p>
+      </LegalSection>
+
+      <LegalSection title={t("finalTitle")}>
+        <List items={t.raw("finalItems")} />
+      </LegalSection>
     </LegalPageLayout>
   );
 }
