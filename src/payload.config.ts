@@ -15,6 +15,7 @@ import { payloadMcpOAuth } from "@brainwebuk/payload-plugin-mcp-oauth";
 import { Users } from "./collections/Users";
 import { Media } from "./collections/Media";
 import { Posts } from "./collections/Posts";
+import { Legal } from "./collections/Legal";
 
 const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
@@ -44,7 +45,7 @@ export default buildConfig({
     locales: ["de", "en"],
     defaultLocale: "de",
   },
-  collections: [Users, Media, Posts],
+  collections: [Users, Media, Posts, Legal],
   editor: lexicalEditor(),
   secret: process.env.PAYLOAD_SECRET || "",
   typescript: {

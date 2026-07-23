@@ -8,6 +8,7 @@ import { XIcon } from "@/components/icons/x-icon";
 import { Logo } from "@/components/logo";
 import { Button } from "@/components/ui/button";
 import { FullWidthDivider } from "@/components/full-width-divider";
+import { Link } from "@/i18n/navigation";
 
 export function Footer() {
   const t = useTranslations("Footer");
@@ -25,13 +26,20 @@ export function Footer() {
       title: t("company.brandAssets"),
       href: "#",
     },
+  ];
+
+  const legalLinks = [
+    {
+      title: t("company.imprint"),
+      href: "/legal/impressum" as const,
+    },
     {
       title: t("company.privacyPolicy"),
-      href: "#",
+      href: "/legal/datenschutz" as const,
     },
     {
       title: t("company.termsOfService"),
-      href: "#",
+      href: "/legal/agb" as const,
     },
   ];
 
@@ -117,6 +125,15 @@ export function Footer() {
               >
                 {title}
               </a>
+            ))}
+            {legalLinks.map(({ href, title }) => (
+              <Link
+                className="w-max text-sm hover:underline"
+                href={href}
+                key={title}
+              >
+                {title}
+              </Link>
             ))}
           </div>
         </div>

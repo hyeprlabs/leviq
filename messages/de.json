@@ -48,8 +48,9 @@
       "aboutUs": "Über uns",
       "careers": "Karrieren",
       "brandAssets": "Markenressourcen",
-      "privacyPolicy": "Datenschutzrichtlinie",
-      "termsOfService": "Servicebedingungen"
+      "imprint": "Impressum",
+      "privacyPolicy": "Datenschutzerklärung",
+      "termsOfService": "AGB"
     },
     "copyright": "© {year} LevIQ, Alle Rechte vorbehalten"
   }

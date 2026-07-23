@@ -71,6 +71,7 @@ export interface Config {
     users: User;
     media: Media;
     posts: Post;
+    'legal-pages': LegalPage;
     'payload-mcp-api-keys': PayloadMcpApiKey;
     'oauth-clients': OauthClient;
     'oauth-auth-codes': OauthAuthCode;
@@ -86,6 +87,7 @@ export interface Config {
     users: UsersSelect<false> | UsersSelect<true>;
     media: MediaSelect<false> | MediaSelect<true>;
     posts: PostsSelect<false> | PostsSelect<true>;
+    'legal-pages': LegalPagesSelect<false> | LegalPagesSelect<true>;
     'payload-mcp-api-keys': PayloadMcpApiKeysSelect<false> | PayloadMcpApiKeysSelect<true>;
     'oauth-clients': OauthClientsSelect<false> | OauthClientsSelect<true>;
     'oauth-auth-codes': OauthAuthCodesSelect<false> | OauthAuthCodesSelect<true>;
@@ -218,6 +220,41 @@ export interface Post {
   };
   author?: (number | null) | User;
   publishedAt?: string | null;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * Impressum, Datenschutzerklärung, AGB and other legally required pages.
+ *
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "legal-pages".
+ */
+export interface LegalPage {
+  id: number;
+  title: string;
+  /**
+   * Used in the URL, e.g. /legal/impressum. Auto-generated from the title if left empty.
+   */
+  slug: string;
+  /**
+   * Optional short description shown under the page title.
+   */
+  summary?: string | null;
+  content: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  };
   updatedAt: string;
   createdAt: string;
 }
@@ -407,6 +444,10 @@ export interface PayloadLockedDocument {
         value: number | Post;
       } | null)
     | ({
+        relationTo: 'legal-pages';
+        value: number | LegalPage;
+      } | null)
+    | ({
         relationTo: 'payload-mcp-api-keys';
         value: number | PayloadMcpApiKey;
       } | null);
@@ -513,6 +554,18 @@ export interface PostsSelect<T extends boolean = true> {
   content?: T;
   author?: T;
   publishedAt?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "legal-pages_select".
+ */
+export interface LegalPagesSelect<T extends boolean = true> {
+  title?: T;
+  slug?: T;
+  summary?: T;
+  content?: T;
   updatedAt?: T;
   createdAt?: T;
 }
