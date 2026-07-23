@@ -2,7 +2,7 @@ import { useTranslations } from "next-intl";
 import { LegalPageLayout, LegalSection } from "@/components/legal/legal-page-layout";
 
 export const metadata = {
-  title: "Impressum | LevIQ",
+  title: "Impressum",
   description: "Impressum und rechtliche Angaben gemäß § 5 TMG",
 };
 

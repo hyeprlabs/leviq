@@ -2,7 +2,7 @@ import { useTranslations } from "next-intl";
 import { LegalPageLayout, LegalSection } from "@/components/legal/legal-page-layout";
 
 export const metadata = {
-  title: "Datenschutzerklärung | LevIQ",
+  title: "Datenschutzerklärung",
   description: "Informationen zur Verarbeitung personenbezogener Daten gemäß DSGVO",
 };
 

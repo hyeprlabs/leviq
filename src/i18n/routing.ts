@@ -22,12 +22,12 @@ export const routing = defineRouting({
       en: "/legal/imprint",
       de: "/impressum",
     },
-    "/legal/privacy": {
-      en: "/legal/privacy",
+    "/legal/privacy-policy": {
+      en: "/legal/privacy-policy",
       de: "/datenschutz",
     },
-    "/legal/terms": {
-      en: "/legal/terms",
+    "/legal/terms-of-service": {
+      en: "/legal/terms-of-service",
       de: "/agb",
     },
   },

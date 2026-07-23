@@ -2,7 +2,7 @@ import { useTranslations } from "next-intl";
 import { LegalPageLayout, LegalSection } from "@/components/legal/legal-page-layout";
 
 export const metadata = {
-  title: "Allgemeine Geschäftsbedingungen | LevIQ",
+  title: "Allgemeine Geschäftsbedingungen",
   description: "Allgemeine Geschäftsbedingungen für Beratungsleistungen",
 };
 
