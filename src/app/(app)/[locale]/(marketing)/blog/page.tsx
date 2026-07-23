@@ -34,6 +34,7 @@ export default async function Page({ params }: Props) {
   setRequestLocale(locale);
 
   const t = await getTranslations({ locale, namespace: "Blog" });
+  const common = await getTranslations({ locale, namespace: "Common" });
   const dateLocale = locale === "de" ? "de-DE" : "en-US";
 
   const payload = await getPayload({ config });
@@ -50,7 +51,7 @@ export default async function Page({ params }: Props) {
         data={[
           blogSchema(t("metaTitle"), t("metaDescription"), locale),
           breadcrumbSchema([
-            { name: t("breadcrumbHome"), url: SITE.url },
+            { name: common("breadcrumbHome"), url: SITE.url },
             { name: t("heading"), url: `${SITE.url}/blog` },
           ]),
         ]}

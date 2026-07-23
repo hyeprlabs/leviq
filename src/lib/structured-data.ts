@@ -185,6 +185,25 @@ export function blogPostingSchema(post: BlogPostingInput): Json {
   };
 }
 
+/** About page, linked to the organization and its founder. */
+export function aboutPageSchema(
+  name: string,
+  description: string,
+  locale: Locale,
+): Json {
+  const url = localizedUrl("/about", locale);
+  return {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "@id": `${url}#about`,
+    name,
+    description,
+    url,
+    inLanguage: locale,
+    mainEntity: { "@id": ID.organization },
+  };
+}
+
 /** Collection page for the blog index. */
 export function blogSchema(
   name: string,

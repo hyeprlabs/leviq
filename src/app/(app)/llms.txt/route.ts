@@ -49,6 +49,15 @@ export async function GET(): Promise<Response> {
   lines.push("## Key pages");
   lines.push(`- [Home](${SITE.url}): ${meta("homeDescription")}`);
   lines.push(
+    `- [Services](${localizedUrl("/services", routing.defaultLocale)}): Full breakdown of AI chatbot, SEO/GEO, strategy and automation services, by industry.`,
+  );
+  lines.push(
+    `- [Pricing](${localizedUrl("/pricing", routing.defaultLocale)}): How the monthly-retainer pricing model works, illustrative packages, billing FAQ.`,
+  );
+  lines.push(
+    `- [About](${localizedUrl("/about", routing.defaultLocale)}): Founder, mission and values behind LevIQ.`,
+  );
+  lines.push(
     `- [Blog](${localizedUrl("/blog", routing.defaultLocale)}): Articles on AI, SEO, GEO and digital automation.`,
   );
   lines.push(

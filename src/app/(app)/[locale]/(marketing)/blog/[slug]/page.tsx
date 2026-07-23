@@ -97,6 +97,7 @@ export default async function Page({ params }: Props) {
   if (!post) notFound();
 
   const t = await getTranslations({ locale, namespace: "Blog" });
+  const common = await getTranslations({ locale, namespace: "Common" });
   const dateLocale = locale === "de" ? "de-DE" : "en-US";
 
   const authorName =
@@ -125,7 +126,7 @@ export default async function Page({ params }: Props) {
             authorName,
           }),
           breadcrumbSchema([
-            { name: t("breadcrumbHome"), url: SITE.url },
+            { name: common("breadcrumbHome"), url: SITE.url },
             { name: t("heading"), url: `${SITE.url}/blog` },
             { name: post.title, url: localizedUrl(`/blog/${slug}`, locale) },
           ]),

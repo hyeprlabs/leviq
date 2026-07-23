@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
-import { LegalPageLayout, LegalSection } from "@/components/legal/legal-page-layout";
+import {
+  LegalPageLayout,
+  LegalSection,
+} from "@/components/legal/legal-page-layout";
 import { alternatesFor, type Locale } from "@/lib/seo";
 
 type Props = { params: Promise<{ locale: string }> };

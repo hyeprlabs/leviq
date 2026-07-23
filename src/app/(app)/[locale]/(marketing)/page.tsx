@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { HeroSection } from "@/components/hero";
-import { LogosSection } from "@/components/logos-section";
+import { TrustSection } from "@/components/trust-section";
+import { DifferentiatorsSection } from "@/components/differentiators-section";
 import { FaqSection } from "@/components/faq-section";
 import { CallToAction } from "@/components/cta";
 import { JsonLd } from "@/components/json-ld";
@@ -51,7 +52,8 @@ export default async function Page({ params }: Props) {
         ]}
       />
       <HeroSection />
-      <LogosSection />
+      <TrustSection />
+      <DifferentiatorsSection />
       <FaqSection />
       <CallToAction />
     </>

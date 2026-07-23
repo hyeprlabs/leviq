@@ -1,4 +1,7 @@
 {
+  "Common": {
+    "breadcrumbHome": "Startseite"
+  },
   "Hero": {
     "badge": "JETZT",
     "accepting": "Akzeptiere neue Kundenprojekte",
@@ -27,6 +30,7 @@
     }
   },
   "Header": {
+    "services": "Leistungen",
     "blog": "Blog",
     "pricing": "Preisgestaltung",
     "about": "Über uns",
@@ -200,16 +204,12 @@
     "resourcesTitle": "Ressourcen",
     "companyTitle": "Unternehmen",
     "resources": {
-      "blog": "Blog",
-      "helpCenter": "Hilfezentrum",
-      "contactSupport": "Support kontaktieren",
-      "community": "Gemeinschaft",
-      "security": "Sicherheit"
+      "services": "Leistungen",
+      "pricing": "Preisgestaltung",
+      "blog": "Blog"
     },
     "company": {
       "aboutUs": "Über uns",
-      "careers": "Karrieren",
-      "brandAssets": "Markenressourcen",
       "privacyPolicy": "Datenschutz",
       "termsOfService": "AGB",
       "imprint": "Impressum"
@@ -244,24 +244,211 @@
       "LevIQ"
     ]
   },
+  "Differentiators": {
+    "heading": "Warum LevIQ",
+    "subheading": "Ein anderer Partner für den digitalen Mittelstand.",
+    "items": [
+      {
+        "title": "Ein Partner statt fünf Dienstleister",
+        "description": "Chatbots, SEO, GEO und Automatisierung aus einem Team – ohne mehrere Agenturen zu koordinieren."
+      },
+      {
+        "title": "Gebaut für KI-Suche, nicht nur Google",
+        "description": "Die meisten Agenturen optimieren noch für die Google-Suche von gestern. Wir optimieren dafür, wie ChatGPT, Perplexity und Googles AI Overviews heute tatsächlich funktionieren."
+      },
+      {
+        "title": "Branchenspezifische Vorgehensweisen",
+        "description": "Maßgeschneiderte Ansätze für Handwerker, Immobilienmakler und Arztpraxen – keine generischen Vorlagen."
+      },
+      {
+        "title": "Transparent statt vage",
+        "description": "Eine klare monatliche Pauschale, ein definierter Leistungsumfang und echtes Reporting – keine Black-Box-Abrechnung."
+      }
+    ]
+  },
+  "Process": {
+    "heading": "So arbeiten wir",
+    "subheading": "Vom ersten Gespräch bis zum messbaren Ergebnis – in vier klaren Schritten.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Erstgespräch",
+        "description": "Ein kostenloses, unverbindliches Gespräch, um Ihr Unternehmen zu verstehen und die größten Hebel für KI und SEO zu identifizieren."
+      },
+      {
+        "number": "02",
+        "title": "Analyse & Strategie",
+        "description": "Wir prüfen Ihren aktuellen Online-Auftritt und skizzieren die wirkungsvollsten Chancen."
+      },
+      {
+        "number": "03",
+        "title": "Umsetzung",
+        "description": "Wir konzipieren, entwickeln und launchen Ihren Chatbot, SEO/GEO-Verbesserungen und Automatisierungen."
+      },
+      {
+        "number": "04",
+        "title": "Launch & Optimierung",
+        "description": "Wir überwachen die Performance und optimieren kontinuierlich – im Rahmen einer transparenten monatlichen Pauschale."
+      }
+    ]
+  },
   "Services": {
     "catalogName": "KI-, SEO- & Automatisierungsleistungen",
     "items": [
       {
         "name": "KI-Chatbot-Entwicklung",
-        "description": "Konzeption, Entwicklung und Integration KI-gestützter Chatbots, die rund um die Uhr Fragen beantworten, Anfragen qualifizieren und Termine buchen."
+        "description": "Konzeption, Entwicklung und Integration KI-gestützter Chatbots, die rund um die Uhr Fragen beantworten, Anfragen qualifizieren und Termine buchen.",
+        "features": [
+          "Trainiert auf Ihr Unternehmen, FAQs und Leistungen",
+          "Bucht Termine und qualifiziert Anfragen rund um die Uhr",
+          "Einsatz auf Ihrer Website, WhatsApp oder beidem",
+          "Übergabe an einen Menschen, wann immer es darauf ankommt"
+        ]
       },
       {
         "name": "SEO & Generative Engine Optimization (GEO)",
-        "description": "Suchmaschinenoptimierung plus Optimierung für generative KI-Systeme, damit Ihr Unternehmen bei Google rankt und von ChatGPT, Perplexity und AI Overviews empfohlen wird."
+        "description": "Suchmaschinenoptimierung plus Optimierung für generative KI-Systeme, damit Ihr Unternehmen bei Google rankt und von ChatGPT, Perplexity und AI Overviews empfohlen wird.",
+        "features": [
+          "Technisches SEO-Audit und On-Page-Optimierung",
+          "Strukturierte Daten (schema.org) für Rich Results",
+          "Inhalte und Seitenstruktur für KI-Antwortmaschinen optimiert",
+          "Lokales SEO für Unternehmen mit Einzugsgebiet"
+        ]
       },
       {
         "name": "KI-Strategieberatung",
-        "description": "Strategische Beratung, wo und wie Sie KI im Unternehmen mit messbarer Wirkung einsetzen."
+        "description": "Strategische Beratung, wo und wie Sie KI im Unternehmen mit messbarer Wirkung einsetzen.",
+        "features": [
+          "Analyse, wo KI in Ihrem Unternehmen echten Hebel bietet",
+          "Tool- und Anbieterauswahl, ohne Hype",
+          "Roadmap mit klaren Prioritäten und Meilensteinen",
+          "Praxisnahe Begleitung bei der Umsetzung"
+        ]
       },
       {
         "name": "Digitale Transformation & Automatisierung",
-        "description": "Automatisierung digitaler Abläufe und Prozesse, um Routinearbeit zu beseitigen und Ihr Team zu entlasten."
+        "description": "Automatisierung digitaler Abläufe und Prozesse, um Routinearbeit zu beseitigen und Ihr Team zu entlasten.",
+        "features": [
+          "Automatisierung wiederkehrender Verwaltungs- und Follow-up-Aufgaben",
+          "Anbindung Ihrer bestehenden Tools (CRM, Kalender, Rechnungsstellung)",
+          "Optimierte Anfrage- und Buchungsprozesse",
+          "Laufende Weiterentwicklung mit Ihrem Unternehmen"
+        ]
+      }
+    ]
+  },
+  "ServicesPage": {
+    "metaTitle": "Leistungen",
+    "metaDescription": "KI-Chatbots, SEO & Generative Engine Optimization (GEO), Strategieberatung und digitale Automatisierung – für Handwerk, Immobilienmakler und Arztpraxen.",
+    "heading": "Leistungen",
+    "subheading": "Alles, was Sie brauchen, um gefunden, vertraut und gebucht zu werden – online und in KI-Antworten.",
+    "featuresLabel": "Enthalten",
+    "industriesHeading": "Gebaut für Ihre Branche",
+    "industriesSubheading": "Wir sind auf drei Branchen spezialisiert – und passen jedes Projekt daran an, wie Ihre Kunden tatsächlich suchen, vergleichen und buchen."
+  },
+  "PricingPage": {
+    "metaTitle": "Preisgestaltung",
+    "metaDescription": "Transparente, pauschalbasierte Preisgestaltung für KI-Chatbots, SEO/GEO und digitale Automatisierung. Keine versteckten Kosten, keine lange Bindung – buchen Sie ein Gespräch für ein individuelles Angebot.",
+    "heading": "Preisgestaltung",
+    "subheading": "Einfach, transparent und genau auf Ihren Bedarf zugeschnitten.",
+    "howItWorksHeading": "So funktioniert die Preisgestaltung",
+    "howItWorksBody": "LevIQ arbeitet mit einer einzigen monatlichen Pauschale (Retainer), die individuell für Ihr Unternehmen vereinbart wird – kein starres Einheitspaket. Sie wissen immer genau, was enthalten ist, Abrechnung monatlich im Voraus, ohne lange Bindung: Beide Seiten können mit einer Frist von 30 Tagen kündigen.",
+    "tiersDisclaimer": "Jedes Projekt wird individuell nach Ihren Zielen skizziert und angeboten. Die folgenden Pakete sind ein Ausgangspunkt für das Gespräch, keine Festpreise.",
+    "ctaLabel": "Individuelles Angebot erhalten",
+    "popularLabel": "Am beliebtesten",
+    "faqHeading": "Fragen zu Preisen & Abrechnung",
+    "faqSubheading": "Die praktischen Details der Zusammenarbeit mit LevIQ."
+  },
+  "PricingTiers": {
+    "items": [
+      {
+        "name": "Foundation",
+        "tagline": "Online gefunden werden.",
+        "features": [
+          "SEO-Audit und On-Page-Optimierung",
+          "Grundlegendes GEO- / Structured-Data-Setup",
+          "Monatliches Performance-Reporting",
+          "E-Mail-Support"
+        ]
+      },
+      {
+        "name": "Growth",
+        "tagline": "Automatisieren und wachsen.",
+        "highlighted": true,
+        "features": [
+          "Alles aus Foundation",
+          "Konzeption und Einsatz eines KI-Chatbots",
+          "Laufende SEO/GEO-Inhalte und -Optimierung",
+          "Priorisierter Support"
+        ]
+      },
+      {
+        "name": "Scale",
+        "tagline": "Mehrere Standorte & hohes Volumen.",
+        "features": [
+          "Alles aus Growth",
+          "Workflow-Automatisierung & Tool-Integrationen",
+          "Dedizierte Strategie-Sessions",
+          "Individuelles Reporting und KPIs"
+        ]
+      }
+    ]
+  },
+  "PricingFaq": {
+    "items": [
+      {
+        "question": "Wie funktioniert die Abrechnung?",
+        "answer": "Sie erhalten monatlich im Voraus eine Rechnung über die im Angebot vereinbarte Pauschale, abgewickelt über Stripe. Rechnungsbeträge sind sofort nach Rechnungsstellung fällig."
+      },
+      {
+        "question": "Gibt es eine Mindestvertragslaufzeit?",
+        "answer": "Sofern im Angebot nichts anderes vereinbart ist, läuft die Zusammenarbeit auf unbestimmte Zeit mit monatlicher Abrechnung – es gibt keine feste Mindestlaufzeit."
+      },
+      {
+        "question": "Kann ich jederzeit kündigen?",
+        "answer": "Ja. Beide Seiten können mit einer Frist von 30 Tagen zum Ende eines Kalendermonats kündigen. Bereits erbrachte Leistungen werden zeitanteilig abgerechnet."
+      },
+      {
+        "question": "Sind Ihre Preise inklusive Umsatzsteuer?",
+        "answer": "Es wird keine Umsatzsteuer berechnet, gemäß § 19 Abs. 1 UStG (Kleinunternehmerregelung)."
+      },
+      {
+        "question": "Was genau erhalte ich mit dem Angebot?",
+        "answer": "Ein schriftliches Angebot oder Statement of Work mit dem konkreten Leistungsumfang, Zeitplan und etwaigen Meilensteinen – bevor die Arbeit beginnt."
+      }
+    ]
+  },
+  "AboutPage": {
+    "metaTitle": "Über uns",
+    "metaDescription": "LevIQ ist eine inhabergeführte Beratung für KI-Chatbots, SEO und Generative Engine Optimization für Handwerk, Immobilienmakler und Arztpraxen – mit Sitz bei München.",
+    "heading": "Über LevIQ",
+    "subheading": "Ein inhabergeführter Partner für Unternehmen im Wandel zur KI-gestützten Suche.",
+    "storyHeading": "Warum es LevIQ gibt",
+    "storyParagraphs": [
+      "Die Suche verändert sich schneller, als die meisten Unternehmen mithalten können. Kunden fragen zunehmend ChatGPT, Perplexity oder Googles AI Overviews nach Empfehlungen, bevor sie überhaupt eine Karte oder eine Suchergebnisseite öffnen – und die meisten kleinen und mittleren Unternehmen sind für diese Systeme schlicht unsichtbar.",
+      "LevIQ wurde gegründet, um genau diese Lücke zu schließen: praxisnahe KI-Umsetzung – Chatbots, die tatsächlich Fragen beantworten und Termine buchen – kombiniert mit Suchmaschinenoptimierung für klassische und generative Suche (SEO und GEO). Gründer Oskar Seeberger arbeitet direkt mit jedem Kunden zusammen, von Grünwald bei München aus, mit Fokus auf die Branchen, die von größeren Agenturen oft übersehen werden: Handwerk, Immobilienmakler und Arztpraxen.",
+      "Das Ziel ist einfach: Wenn Ihre Kunden ein KI-System – oder Google – fragen, wen sie beauftragen sollen, soll Ihr Unternehmen die Antwort sein."
+    ],
+    "valuesHeading": "Woran wir glauben",
+    "valuesSubheading": "Die Prinzipien hinter der Arbeitsweise von LevIQ."
+  },
+  "Values": {
+    "items": [
+      {
+        "title": "Klare Sprache, kein Fachchinesisch",
+        "description": "Sie erhalten verständliche Erklärungen, was wir tun und warum – niemals Buzzwords um ihrer selbst willen."
+      },
+      {
+        "title": "Immer direkter Kontakt",
+        "description": "Sie arbeiten direkt mit der Person, die Ihre Lösung baut – keine Account-Manager, keine Übergaben."
+      },
+      {
+        "title": "Gemessen statt gehypt",
+        "description": "Wir verfolgen, was für Ihr Unternehmen wirklich etwas bewirkt – keine Vanity-Metriken."
+      },
+      {
+        "title": "Langfristig gedacht",
+        "description": "Wir bauen für dauerhafte Ergebnisse, nicht für schnelle Erfolge, die aufhören, sobald sich ein Algorithmus ändert."
       }
     ]
   },
@@ -271,12 +458,28 @@
     "heading": "Blog",
     "subheading": "Praxisnahe Einblicke zu KI, Automatisierung und digitalem Wachstum für moderne Unternehmen.",
     "latestPosts": "Neueste Beiträge",
-    "readMore": "Ganzen Artikel lesen.",
-    "breadcrumbHome": "Startseite"
+    "readMore": "Ganzen Artikel lesen."
   },
-  "Logos": {
-    "trustedByLead": "Vertraut von",
-    "trustedByHighlight": "Experten"
+  "Trust": {
+    "heading": "Worauf Sie sich verlassen können",
+    "items": [
+      {
+        "title": "DSGVO-konform, EU-Hosting",
+        "description": "Datenverarbeitung auf Servern in Frankfurt am Main, vollständig DSGVO-konform."
+      },
+      {
+        "title": "Sitz bei München",
+        "description": "Grünwald, Bayern – Betreuung von Kunden in Deutschland, Österreich und der Schweiz."
+      },
+      {
+        "title": "KI & SEO aus einer Hand",
+        "description": "Chatbots, SEO und Generative Engine Optimization von einem einzigen Spezialisten."
+      },
+      {
+        "title": "Direkter Draht zum Gründer",
+        "description": "Keine Account-Manager oder Übergaben – Sie arbeiten direkt mit der Person, die Ihre Lösung baut."
+      }
+    ]
   },
   "Cta": {
     "heading": "Bereit, KI für Ihr Unternehmen arbeiten zu lassen?",

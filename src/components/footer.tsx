@@ -13,58 +13,19 @@ import { FullWidthDivider } from "@/components/full-width-divider";
 export function Footer() {
   const t = useTranslations("Footer");
 
-  const company = [
-    {
-      title: t("company.aboutUs"),
-      href: "#",
-    },
-    {
-      title: t("company.careers"),
-      href: "#",
-    },
-    {
-      title: t("company.brandAssets"),
-      href: "#",
-    },
-  ];
-
-  const legal = [
-    {
-      title: t("company.privacyPolicy"),
-      href: "/legal/privacy-policy",
-    },
-    {
-      title: t("company.termsOfService"),
-      href: "/legal/terms-of-service",
-    },
-    {
-      title: t("company.imprint"),
-      href: "/legal/imprint",
-    },
+  const resources = [
+    { title: t("resources.services"), href: "/services" },
+    { title: t("resources.pricing"), href: "/pricing" },
+    { title: t("resources.blog"), href: "/blog" },
   ] as const;
 
-  const resources = [
-    {
-      title: t("resources.blog"),
-      href: "#",
-    },
-    {
-      title: t("resources.helpCenter"),
-      href: "#",
-    },
-    {
-      title: t("resources.contactSupport"),
-      href: "#",
-    },
-    {
-      title: t("resources.community"),
-      href: "#",
-    },
-    {
-      title: t("resources.security"),
-      href: "#",
-    },
-  ];
+  const company = [
+    { title: t("company.aboutUs"), href: "/about" },
+    { title: t("company.privacyPolicy"), href: "/legal/privacy-policy" },
+    { title: t("company.termsOfService"), href: "/legal/terms-of-service" },
+    { title: t("company.imprint"), href: "/legal/imprint" },
+  ] as const;
+
   return (
     <footer
       className={cn(
@@ -75,9 +36,9 @@ export function Footer() {
       <FullWidthDivider position="top" />
       <div className="grid max-w-5xl grid-cols-6 gap-6 p-4">
         <div className="col-span-6 flex flex-col gap-4 pt-5 md:col-span-4">
-          <a className="w-max" href="#">
+          <Link className="w-max" href="/">
             <Logo className="h-5" />
-          </a>
+          </Link>
           <p className="max-w-sm text-balance text-muted-foreground text-sm">
             {t("tagline")}
           </p>
@@ -102,13 +63,13 @@ export function Footer() {
           </span>
           <div className="mt-2 flex flex-col gap-2">
             {resources.map(({ href, title }) => (
-              <a
+              <Link
                 className="w-max text-sm hover:underline"
                 href={href}
                 key={title}
               >
                 {title}
-              </a>
+              </Link>
             ))}
           </div>
         </div>
@@ -118,15 +79,6 @@ export function Footer() {
           </span>
           <div className="mt-2 flex flex-col gap-2">
             {company.map(({ href, title }) => (
-              <a
-                className="w-max text-sm hover:underline"
-                href={href}
-                key={title}
-              >
-                {title}
-              </a>
-            ))}
-            {legal.map(({ href, title }) => (
               <Link
                 className="w-max text-sm hover:underline"
                 href={href}

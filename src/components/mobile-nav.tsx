@@ -16,8 +16,8 @@ export function MobileNav() {
 
   const navLinks = [
     {
-      label: t("blog"),
-      href: "/blog" as const,
+      label: t("services"),
+      href: "/services" as const,
     },
     {
       label: t("pricing"),
@@ -26,6 +26,10 @@ export function MobileNav() {
     {
       label: t("about"),
       href: "/about" as const,
+    },
+    {
+      label: t("blog"),
+      href: "/blog" as const,
     },
   ];
 
