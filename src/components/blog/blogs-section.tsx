@@ -9,17 +9,22 @@ type Post = {
   href: string;
 };
 
-export function BlogsSection({ posts }: { posts: Post[] }) {
+export function BlogsSection({
+  posts,
+  heading,
+  description,
+}: {
+  posts: Post[];
+  heading: string;
+  description: string;
+}) {
   return (
     <div className="mb-12 lg:mb-24 mx-auto flex w-full max-w-4xl flex-col justify-start border-t">
       <div className="space-y-2 px-4 py-8 md:py-12">
-        <h1 className="font-semibold text-2xl tracking-wide md:text-4xl">
-          Latest Posts
-        </h1>
-        <p className="text-muted-foreground text-sm">
-          Discover the latest trends and insights in the world of AI and
-          technology.
-        </p>
+        <h2 className="font-semibold text-2xl tracking-wide md:text-4xl">
+          {heading}
+        </h2>
+        <p className="text-muted-foreground text-sm">{description}</p>
       </div>
 
       <div className="relative">

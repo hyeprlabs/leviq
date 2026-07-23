@@ -1,4 +1,7 @@
 {
+  "Common": {
+    "breadcrumbHome": "Home"
+  },
   "Hero": {
     "badge": "NOW",
     "accepting": "accepting new client projects",
@@ -27,10 +30,10 @@
     }
   },
   "Header": {
+    "services": "Services",
     "blog": "Blog",
     "pricing": "Pricing",
     "about": "About",
-    "contact": "Contact",
     "demo": "Demo",
     "bookACall": "Book a Call"
   },
@@ -197,24 +200,317 @@
     }
   },
   "Footer": {
-    "tagline": "Beautify your app with efferd.",
+    "tagline": "AI chatbots, SEO and digital automation for ambitious small and medium-sized businesses.",
     "resourcesTitle": "Resources",
     "companyTitle": "Company",
     "resources": {
-      "blog": "Blog",
-      "helpCenter": "Help Center",
-      "contactSupport": "Contact Support",
-      "community": "Community",
-      "security": "Security"
+      "services": "Services",
+      "pricing": "Pricing",
+      "blog": "Blog"
     },
     "company": {
       "aboutUs": "About Us",
-      "careers": "Careers",
-      "brandAssets": "Brand assets",
       "privacyPolicy": "Privacy",
       "termsOfService": "Terms",
       "imprint": "Imprint"
     },
     "copyright": "© {year} LevIQ, All rights reserved"
+  },
+  "Meta": {
+    "siteName": "LevIQ",
+    "siteDescription": "LevIQ builds AI chatbots, search & generative engine optimization (SEO/GEO) and digital automation for tradespeople, real estate agents and medical practices — from Grünwald near Munich.",
+    "homeTitle": "AI Chatbots & Digital Automation That Win You More Clients",
+    "homeDescription": "LevIQ designs AI-powered chatbots, SEO and generative engine optimization (GEO), and digital automation for small and medium-sized businesses. More visibility, more qualified leads, less busywork.",
+    "ogAlt": "LevIQ — AI chatbots, SEO and digital automation agency",
+    "keywords": [
+      "AI agency",
+      "AI chatbot",
+      "chatbot development",
+      "SEO",
+      "GEO",
+      "generative engine optimization",
+      "answer engine optimization",
+      "AEO",
+      "digital automation",
+      "digital transformation",
+      "lead generation",
+      "Munich",
+      "Grünwald",
+      "Germany",
+      "LevIQ"
+    ]
+  },
+  "Differentiators": {
+    "heading": "Why LevIQ",
+    "subheading": "A different kind of digital partner for the Mittelstand.",
+    "items": [
+      {
+        "title": "One partner, not five vendors",
+        "description": "Chatbots, SEO, GEO and automation from a single team — no coordinating separate agencies."
+      },
+      {
+        "title": "Built for AI search, not just Google",
+        "description": "Most agencies still optimize for 2015-era search. We optimize for how ChatGPT, Perplexity and Google's AI Overviews actually work."
+      },
+      {
+        "title": "Industry-specific playbooks",
+        "description": "Tailored approaches for tradespeople, real estate agents and medical practices — not generic templates."
+      },
+      {
+        "title": "Transparent, not vague",
+        "description": "A clear monthly retainer, a defined scope, and real reporting — no black-box billing."
+      }
+    ]
+  },
+  "Process": {
+    "heading": "How we work",
+    "subheading": "From first call to measurable results — a clear, four-step process.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Discovery call",
+        "description": "A free, no-obligation call to understand your business and where AI and SEO can move the needle."
+      },
+      {
+        "number": "02",
+        "title": "Audit & strategy",
+        "description": "We review your current online presence and outline the highest-impact opportunities."
+      },
+      {
+        "number": "03",
+        "title": "Build & implement",
+        "description": "We design, build and launch your chatbot, SEO/GEO improvements and automations."
+      },
+      {
+        "number": "04",
+        "title": "Launch & optimize",
+        "description": "We monitor performance and continuously refine — on a transparent monthly retainer."
+      }
+    ]
+  },
+  "Services": {
+    "catalogName": "AI, SEO & Automation Services",
+    "items": [
+      {
+        "name": "AI Chatbot Development",
+        "description": "Design, development and integration of AI-powered chatbots that answer questions, qualify leads and book appointments around the clock.",
+        "features": [
+          "Trained on your business, FAQs and services",
+          "Books appointments and qualifies leads 24/7",
+          "Deployed on your website, WhatsApp, or both",
+          "Hands off to a human whenever it matters"
+        ]
+      },
+      {
+        "name": "SEO & Generative Engine Optimization (GEO)",
+        "description": "Search engine optimization plus optimization for generative AI systems, so your business ranks on Google and gets recommended by ChatGPT, Perplexity and AI Overviews.",
+        "features": [
+          "Technical SEO audit and on-page optimization",
+          "Structured data (schema.org) for rich results",
+          "Content and site structure built for AI answer engines",
+          "Local SEO for service-area businesses"
+        ]
+      },
+      {
+        "name": "AI Strategy Consulting",
+        "description": "Strategic guidance on where and how to deploy AI in your business for measurable, real-world impact.",
+        "features": [
+          "Assessment of where AI creates real leverage for you",
+          "Tool and vendor selection, without the hype",
+          "A roadmap with clear priorities and milestones",
+          "Hands-on support through implementation"
+        ]
+      },
+      {
+        "name": "Digital Transformation & Automation",
+        "description": "Automation of digital workflows and processes to remove busywork and let your team scale operations.",
+        "features": [
+          "Automating repetitive admin and follow-up work",
+          "Connecting your existing tools (CRM, calendar, invoicing)",
+          "Streamlined intake and booking flows",
+          "Ongoing refinement as your business changes"
+        ]
+      }
+    ]
+  },
+  "ServicesPage": {
+    "metaTitle": "Services",
+    "metaDescription": "AI chatbots, SEO & Generative Engine Optimization (GEO), strategy consulting and digital automation — for tradespeople, real estate agents and medical practices.",
+    "heading": "Services",
+    "subheading": "Everything you need to be found, trusted and booked — online and in AI answers.",
+    "featuresLabel": "What's included",
+    "industriesHeading": "Built for your industry",
+    "industriesSubheading": "We specialize in three industries — and tailor every engagement to how your customers actually search, compare and book."
+  },
+  "PricingPage": {
+    "metaTitle": "Pricing",
+    "metaDescription": "Transparent, retainer-based pricing for AI chatbots, SEO/GEO and digital automation. No hidden fees, no long-term lock-in — book a call for a custom quote.",
+    "heading": "Pricing",
+    "subheading": "Simple, transparent, and scoped to what you actually need.",
+    "howItWorksHeading": "How pricing works",
+    "howItWorksBody": "LevIQ works on a single monthly flat fee (retainer), agreed individually for your business — not a rigid one-size-fits-all plan. You'll always know exactly what's included, invoiced monthly in advance, with no long-term lock-in: either side can cancel with 30 days' notice.",
+    "tiersDisclaimer": "Every engagement is scoped and quoted individually based on your goals. The packages below are a starting point for the conversation, not fixed prices.",
+    "ctaLabel": "Get a custom quote",
+    "popularLabel": "Most popular",
+    "faqHeading": "Pricing & billing questions",
+    "faqSubheading": "The practical details of working with LevIQ."
+  },
+  "PricingTiers": {
+    "items": [
+      {
+        "name": "Foundation",
+        "tagline": "Get found online.",
+        "features": [
+          "SEO audit and on-page optimization",
+          "Core GEO / structured data setup",
+          "Monthly performance reporting",
+          "Email support"
+        ]
+      },
+      {
+        "name": "Growth",
+        "tagline": "Automate and grow.",
+        "highlighted": true,
+        "features": [
+          "Everything in Foundation",
+          "AI chatbot design and deployment",
+          "Ongoing SEO/GEO content and optimization",
+          "Priority support"
+        ]
+      },
+      {
+        "name": "Scale",
+        "tagline": "Multi-location & high-volume.",
+        "features": [
+          "Everything in Growth",
+          "Workflow automation & tool integrations",
+          "Dedicated strategy sessions",
+          "Custom reporting and KPIs"
+        ]
+      }
+    ]
+  },
+  "PricingFaq": {
+    "items": [
+      {
+        "question": "How does billing work?",
+        "answer": "You're invoiced monthly in advance via Stripe, for the flat fee agreed in your proposal. Invoices are due immediately upon issue."
+      },
+      {
+        "question": "Is there a minimum contract length?",
+        "answer": "Unless otherwise agreed in your proposal, engagements run for an indefinite period with monthly billing — there's no fixed minimum term."
+      },
+      {
+        "question": "Can I cancel anytime?",
+        "answer": "Yes. Either party can terminate with 30 days' notice, effective at the end of a calendar month. Work already performed is billed pro rata."
+      },
+      {
+        "question": "Do your prices include VAT?",
+        "answer": "No VAT is charged, pursuant to § 19 (1) of the German VAT Act (UStG) — the small business exemption."
+      },
+      {
+        "question": "What exactly do I get with the quote?",
+        "answer": "A written proposal or Statement of Work outlining the specific scope of services, timeline, and any milestones — before any work begins."
+      }
+    ]
+  },
+  "AboutPage": {
+    "metaTitle": "About",
+    "metaDescription": "LevIQ is a founder-led consultancy building AI chatbots, SEO and generative engine optimization for tradespeople, real estate agents and medical practices — based near Munich, Germany.",
+    "heading": "About LevIQ",
+    "subheading": "A founder-led partner for businesses navigating the shift to AI-driven search.",
+    "storyHeading": "Why LevIQ exists",
+    "storyParagraphs": [
+      "Search is changing faster than most businesses can keep up with. Customers increasingly ask ChatGPT, Perplexity or Google's AI Overviews for recommendations before they ever open a map or a search results page — and most small and medium-sized businesses are simply invisible to those systems.",
+      "LevIQ was founded to close that gap: combining hands-on AI implementation — chatbots that actually answer questions and book appointments — with search engine optimization built for both traditional and generative search (SEO and GEO). Founder Oskar Seeberger works directly with every client from Grünwald, near Munich, with a focus on the industries most often overlooked by larger agencies: tradespeople, real estate agents and medical practices.",
+      "The goal is straightforward: make sure that when your customers ask an AI system — or Google — who to call, your business is the answer."
+    ],
+    "valuesHeading": "What we believe",
+    "valuesSubheading": "The principles behind how LevIQ works."
+  },
+  "Values": {
+    "items": [
+      {
+        "title": "Plain language, no jargon",
+        "description": "You'll get clear explanations of what we're doing and why — never buzzwords for their own sake."
+      },
+      {
+        "title": "Direct access, always",
+        "description": "You work directly with the person building your solution — no account managers, no hand-offs."
+      },
+      {
+        "title": "Measured, not hyped",
+        "description": "We track what actually moves the needle for your business, not vanity metrics."
+      },
+      {
+        "title": "Long-term thinking",
+        "description": "We build for durable results, not quick wins that stop working the moment an algorithm changes."
+      }
+    ]
+  },
+  "Blog": {
+    "metaTitle": "Blog — AI, Automation & Digital Growth",
+    "metaDescription": "Practical insights on AI chatbots, SEO, generative engine optimization (GEO) and digital automation for small and medium-sized businesses.",
+    "heading": "Blog",
+    "subheading": "Practical insights on AI, automation and digital growth for modern businesses.",
+    "latestPosts": "Latest Posts",
+    "readMore": "Read the full article."
+  },
+  "Trust": {
+    "heading": "What you can count on",
+    "items": [
+      {
+        "title": "GDPR-compliant, EU-hosted",
+        "description": "Data processed on servers in Frankfurt, Germany, fully compliant with the GDPR."
+      },
+      {
+        "title": "Based near Munich",
+        "description": "Grünwald, Bavaria — serving clients across Germany, Austria and Switzerland."
+      },
+      {
+        "title": "AI & SEO under one roof",
+        "description": "Chatbots, SEO and generative engine optimization from a single specialist."
+      },
+      {
+        "title": "Direct line to the founder",
+        "description": "No account managers or hand-offs — you work directly with the person building your solution."
+      }
+    ]
+  },
+  "Cta": {
+    "heading": "Ready to put AI to work for your business?",
+    "description": "Book a free strategy call and see exactly what LevIQ can automate, rank and grow for you.",
+    "primary": "Book a Call",
+    "secondary": "Contact Sales"
+  },
+  "Faq": {
+    "heading": "Frequently asked questions",
+    "subheading": "What businesses ask us most about AI, SEO and working with LevIQ.",
+    "items": [
+      {
+        "question": "What does LevIQ do?",
+        "answer": "LevIQ is a digital agency that builds AI-powered chatbots, implements search and generative engine optimization (SEO & GEO) and automates digital workflows for small and medium-sized businesses — with a focus on tradespeople, real estate agents and medical practices."
+      },
+      {
+        "question": "What is Generative Engine Optimization (GEO)?",
+        "answer": "GEO — closely related to Answer Engine Optimization (AEO) — is the practice of optimizing a website so AI systems like ChatGPT, Google AI Overviews, Perplexity and Claude can understand it and recommend it in their answers. LevIQ combines classic SEO with structured data, clean semantics and machine-readable content so your business becomes quotable by AI."
+      },
+      {
+        "question": "Which industries does LevIQ specialize in?",
+        "answer": "LevIQ focuses on handymen and tradespeople, real estate agents, and doctors and clinics, but also delivers tailored digital solutions for businesses in other sectors."
+      },
+      {
+        "question": "How much does working with LevIQ cost?",
+        "answer": "LevIQ works on a transparent monthly flat fee (retainer). The exact scope and price are agreed individually based on your goals — book a free call to get a tailored proposal."
+      },
+      {
+        "question": "Where is LevIQ based?",
+        "answer": "LevIQ is operated by Oskar Seeberger from Grünwald near Munich, Germany, and serves clients across Germany, Austria and Switzerland — remotely and on site."
+      },
+      {
+        "question": "How do I get started with LevIQ?",
+        "answer": "Book a free, no-obligation strategy call. We review your current setup, identify the highest-impact automation and visibility opportunities, and outline a clear next step."
+      }
+    ]
   }
 }

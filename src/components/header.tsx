@@ -16,8 +16,8 @@ export function Header() {
 
   const navLinks = [
     {
-      label: t("blog"),
-      href: "/blog" as const,
+      label: t("services"),
+      href: "/services" as const,
     },
     {
       label: t("pricing"),
@@ -26,6 +26,10 @@ export function Header() {
     {
       label: t("about"),
       href: "/about" as const,
+    },
+    {
+      label: t("blog"),
+      href: "/blog" as const,
     },
   ];
 
@@ -47,12 +51,12 @@ export function Header() {
           },
         )}
       >
-        <a
+        <Link
           className="rounded-md p-2 hover:bg-muted dark:hover:bg-muted/50"
-          href="#"
+          href="/"
         >
           <Logo className="h-4" />
-        </a>
+        </Link>
         <div className="hidden items-center gap-2 md:flex">
           <div>
             {navLinks.map((link) => (

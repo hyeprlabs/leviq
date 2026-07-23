@@ -6,14 +6,9 @@ import { Button } from "@/components/ui/button";
 import { CalEmbed } from "@/components/cal-embed";
 import { DecorIcon } from "@/components/decor-icon";
 import { FullWidthDivider } from "@/components/full-width-divider";
+import { IndustriesGrid } from "@/components/industries-grid";
 import { ArrowRightIcon, PhoneCallIcon } from "lucide-react";
 import { Link } from "@/i18n/navigation";
-
-const industries = [
-  { key: "handymen", icon: "1.png" },
-  { key: "realEstate", icon: "2.png" },
-  { key: "doctors", icon: "3.png" },
-] as const;
 
 export function HeroSection() {
   const t = useTranslations("Hero");
@@ -91,32 +86,7 @@ export function HeroSection() {
         <DecorIcon className="size-4" position="bottom-right" />
 
         <FullWidthDivider className="-top-px" />
-        <div className="grid grid-cols-1 divide-y divide-border bg-secondary/80 dark:bg-secondary/40 md:grid-cols-3 md:divide-x md:divide-y-0">
-          {industries.map(({ key, icon }, i) => (
-            <div
-              key={key}
-              style={{ animationDelay: `${i * 100 + 400}ms` }}
-              className={cn(
-                "flex flex-col items-center gap-6 px-10 py-14 text-center",
-                "fade-in slide-in-from-bottom-6 animate-in fill-mode-backwards duration-500 ease-out",
-              )}
-            >
-              <img
-                alt={t(`industries.${key}.title`)}
-                src={icon}
-                className="w-44 h-auto drop-shadow-md"
-              />
-              <div className="flex flex-col gap-2">
-                <h3 className="text-lg font-semibold tracking-tight">
-                  {t(`industries.${key}.title`)}
-                </h3>
-                <p className="max-w-xs text-sm leading-relaxed text-muted-foreground">
-                  {t(`industries.${key}.description`)}
-                </p>
-              </div>
-            </div>
-          ))}
-        </div>
+        <IndustriesGrid animate />
 
         <div className="flex flex-col items-start justify-between gap-4 border-t px-10 py-8 sm:flex-row sm:items-center">
           <div className="flex flex-col gap-1">
