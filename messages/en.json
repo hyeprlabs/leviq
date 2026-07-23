@@ -34,6 +34,191 @@
     "demo": "Demo",
     "bookACall": "Book a Call"
   },
+  "Legal": {
+    "impressum": {
+      "title": "Imprint",
+      "lastUpdated": "Last updated: July 23, 2026",
+      "toc": [
+        { "id": "tmg", "label": "Information per § 5 TMG" },
+        { "id": "contact", "label": "Contact" },
+        { "id": "businessForm", "label": "Business Form" },
+        { "id": "vat", "label": "VAT" },
+        { "id": "liability", "label": "Liability for Content" },
+        { "id": "links", "label": "Liability for Links" }
+      ],
+      "tmg": "Information pursuant to § 5 TMG and § 55 RStV",
+      "operator": "Oskar Seeberger",
+      "address": "Adalbert-Stifter-Straße 5, 82031 Grünwald, Germany",
+      "email": "o.seeberger@outlook.com",
+      "phone": "+49 159 050 90 161",
+      "businessFormTitle": "Business Form",
+      "businessFormText": "Sole proprietorship under German commercial law",
+      "vatTitle": "VAT Identification",
+      "vatText": "Small business (Kleinunternehmer) under § 19 (1) UStG. VAT exemption applies.",
+      "liabilityTitle": "Responsibility for Content",
+      "liabilityText": "Contents are created with utmost care. No warranty for accuracy, completeness, or timeliness. Under § 7 (1) TMG, I am responsible for my own content. Under § 7 (2-3) TMG, I am not obligated to monitor third-party information or investigate unlawful activity unless concrete evidence exists.",
+      "linksTitle": "Liability for Links",
+      "linksText": "This website contains links to external third-party websites. I am not responsible for their contents. Links are checked at publication; updates are not monitored.",
+      "copyrightTitle": "Copyright",
+      "copyrightText": "All content and works are subject to German copyright law. Reproduction, adaptation, distribution, and exploitation outside copyright boundaries are prohibited. This includes databases and source code.",
+      "disclaimerTitle": "General Disclaimer",
+      "disclaimerText": "All content is provided as-is. No liability is assumed for errors, downtime, or data loss."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: July 23, 2026",
+      "toc": [
+        { "id": "controller", "label": "Data Controller" },
+        { "id": "scope", "label": "Scope of Processing" },
+        { "id": "legal", "label": "Legal Basis" },
+        { "id": "processors", "label": "Data Processors" },
+        { "id": "cookies", "label": "Cookies & Tracking" },
+        { "id": "retention", "label": "Data Retention" },
+        { "id": "rights", "label": "Your Rights" },
+        { "id": "thirdCountries", "label": "International Transfers" },
+        { "id": "contact", "label": "Contact" }
+      ],
+      "controllerTitle": "1. Data Controller",
+      "controllerText": "Oskar Seeberger, Adalbert-Stifter-Straße 5, 82031 Grünwald, Germany, o.seeberger@outlook.com",
+      "scopeTitle": "2. Scope of Data Processing",
+      "scopeIntro": "Personal data is processed only with legal basis:",
+      "scopeItems": [
+        "Contact data from inquiries (name, email, message)",
+        "Billing and payment data (Stripe)",
+        "Usage data for optimization (PostHog)",
+        "Business communication (Attio, Resend)"
+      ],
+      "legalTitle": "3. Legal Basis (GDPR)",
+      "legalItems": [
+        "Art. 6 (1) (b) GDPR: Performance of contractual obligations",
+        "Art. 6 (1) (f) GDPR: Legitimate interests (improvement, security)",
+        "Art. 6 (1) (c) GDPR: Compliance with legal obligations"
+      ],
+      "processorsTitle": "4. Data Processors and Recipients",
+      "vercelTitle": "Vercel Inc. (Hosting)",
+      "vercelText": "Location: Frankfurt a.M. Stores server logs, cookies, session data. Certified data processor with Standard Contractual Clauses.",
+      "stripeTitle": "Stripe Payments Europe Ltd. (Payments)",
+      "stripeText": "Location: Dublin, Ireland. Processes payment data, invoices, subscriptions. PCI-DSS certified. Retains data per compliance requirements.",
+      "posthogTitle": "PostHog Inc. (Analytics)",
+      "posthogText": "Location: San Francisco. Pseudonymized usage metrics. No personal attribution. Data can be deleted.",
+      "attioTitle": "Attio (CRM)",
+      "attioText": "Enterprise workspace for business contacts and project management.",
+      "resendTitle": "Resend (Email)",
+      "resendText": "Transactional emails such as confirmations and notifications.",
+      "cookiesTitle": "5. Cookies & Tracking",
+      "cookiesText": "This website uses only technically necessary cookies and PostHog Analytics (pseudonymized):",
+      "cookieTypes": [
+        "Technical Cookies: Session, authentication",
+        "PostHog: Anonymous usage data (page views, clicks, browser)"
+      ],
+      "retentionTitle": "6. Data Retention",
+      "retentionItems": [
+        "Contact Data: Deleted after inquiry completion or upon request",
+        "Payment Data: Per retention obligations (up to 10 years)",
+        "Analytics: Automatically deleted after 12 months"
+      ],
+      "rightsTitle": "7. Your Rights",
+      "rightsItems": [
+        "Right of Access (Art. 15 GDPR)",
+        "Right of Rectification (Art. 16 GDPR)",
+        "Right to Erasure (Art. 17 GDPR)",
+        "Right to Restrict Processing (Art. 18 GDPR)",
+        "Data Portability (Art. 20 GDPR)",
+        "Right to Object (Art. 21 GDPR)"
+      ],
+      "thirdCountriesTitle": "8. International Data Transfers",
+      "thirdCountriesText": "Vercel, PostHog, and Stripe are located outside the EU. Transfers rely on Standard Contractual Clauses (Art. 44-49 GDPR).",
+      "contactTitle": "9. Contact & Complaint Rights",
+      "contactText": "Questions: o.seeberger@outlook.com. Complaint to Bavarian Data Protection Authority (www.lda.bayern.de)."
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "lastUpdated": "Last updated: July 23, 2026",
+      "toc": [
+        { "id": "scope", "label": "Scope" },
+        { "id": "services", "label": "Services" },
+        { "id": "pricing", "label": "Pricing & Payment" },
+        { "id": "term", "label": "Contract Term" },
+        { "id": "performance", "label": "Service Delivery" },
+        { "id": "ip", "label": "Intellectual Property" },
+        { "id": "liability", "label": "Liability" },
+        { "id": "law", "label": "Governing Law" }
+      ],
+      "scopeTitle": "1. Scope",
+      "scopeText": "These Terms regulate the contractual relationship between LevIQ (Oskar Seeberger) and entrepreneurs, freelancers, and organizations (B2B only). Consumer protection provisions do not apply.",
+      "servicesTitle": "2. Services",
+      "servicesText": "LevIQ provides specialized consulting services:",
+      "servicesItems": [
+        "AI Chatbot Development and Integration",
+        "SEO/GEO Services and Digital Visibility",
+        "Consulting on AI Technologies",
+        "Digital Transformation and Process Optimization",
+        "Other services as requested"
+      ],
+      "pricingTitle": "3. Pricing & Payment",
+      "pricingIntro": "Services are billed using a base package with monthly retainer model.",
+      "pricingItems": [
+        "Billing: Monthly in advance",
+        "Payment Method: Stripe with authorization for deduction",
+        "Payment Terms: Immediately upon invoice",
+        "Late Payment: 8% p.a. interest",
+        "All prices net, plus applicable VAT (if applicable)"
+      ],
+      "termTitle": "4. Contract Term & Termination",
+      "termItems": [
+        "Minimum Term: As agreed (typically monthly)",
+        "Termination: 30 days' notice to end of month by either party",
+        "Extraordinary Termination: For material breach",
+        "Automatic Payments: Stop after termination notice period"
+      ],
+      "performanceTitle": "5. Service Delivery",
+      "performanceText": "Services are delivered to the best of ability per industry standards. Details in Engagement Letters or Statements of Work.",
+      "ipTitle": "6. Intellectual Property",
+      "ipItems": [
+        "Service Provider: Retains copyright in methods, templates, concepts",
+        "Custom Solutions: Transfer to client",
+        "Service Provider: May use anonymized case studies"
+      ],
+      "liabilityTitle": "7. Liability & Warranty",
+      "liabilityItems": [
+        "Liability: Only for intent and gross negligence",
+        "Simple Negligence: Limited to 12-month payment amount",
+        "Data Loss: No liability",
+        "Indirect Damages: Excluded",
+        "Success Guarantee: Not provided"
+      ],
+      "lawTitle": "8. Governing Law",
+      "lawText": "These Terms are governed by German law (excluding conflicts law). Jurisdiction: Munich, Bavaria, Germany."
+    },
+    "withdrawal": {
+      "title": "Right of Withdrawal Notice",
+      "lastUpdated": "Last updated: July 23, 2026",
+      "notice": "LevIQ provides exclusively B2B services (Business-to-Business).",
+      "noticeDetail": "Consumer withdrawal rights under § 355 BGB do not apply. LevIQ works only with entrepreneurs, freelancers, and organizations.",
+      "toc": [
+        { "id": "noConsumer", "label": "No Consumer Rights" },
+        { "id": "termination", "label": "Termination Rights Instead" },
+        { "id": "payments", "label": "Payment Obligations" },
+        { "id": "stripe", "label": "Payment Processing" },
+        { "id": "contact", "label": "Contact & Complaints" }
+      ],
+      "noConsumerTitle": "1. No Consumer Protection Rights",
+      "noConsumerText": "A consumer is a natural person acting for personal purposes. LevIQ does not process consumer contracts. All contracts are B2B.",
+      "terminationTitle": "2. Termination Rights (instead of withdrawal)",
+      "terminationText": "Instead of withdrawal rights, the following applies:",
+      "terminationItems": [
+        "Termination: 30 days' notice to end of month",
+        "No Refunds: Paid fees are final",
+        "Immediate Deactivation: Services cease after termination period"
+      ],
+      "paymentsTitle": "3. Payment Obligations",
+      "paymentsText": "For monthly retainers, payment is always due even if services are not utilized. This is part of the agreement.",
+      "stripeTitle": "4. Payment Processing via Stripe",
+      "stripeText": "Payments are processed through Stripe. Client authorizes recurring debits. For disputes: o.seeberger@outlook.com or Stripe Support.",
+      "contactTitle": "5. Contact & Complaints",
+      "contactText": "For questions or complaints: o.seeberger@outlook.com, +49 159 050 90 161. Bavarian Data Protection Authority: www.lda.bayern.de"
+    }
+  },
   "Footer": {
     "tagline": "Beautify your app with efferd.",
     "resourcesTitle": "Resources",

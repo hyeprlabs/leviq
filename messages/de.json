@@ -33,6 +33,191 @@
     "demo": "Demo",
     "bookACall": "Termin buchen"
   },
+  "Legal": {
+    "impressum": {
+      "title": "Impressum",
+      "lastUpdated": "Zuletzt aktualisiert: 23. Juli 2026",
+      "toc": [
+        { "id": "tmg", "label": "Angaben gemäß § 5 TMG" },
+        { "id": "contact", "label": "Kontakt" },
+        { "id": "businessForm", "label": "Geschäftsform" },
+        { "id": "vat", "label": "Umsatzsteuer" },
+        { "id": "liability", "label": "Haftung für Inhalte" },
+        { "id": "links", "label": "Haftung für Links" }
+      ],
+      "tmg": "Angaben gemäß § 5 TMG und § 55 RStV",
+      "operator": "Oskar Seeberger",
+      "address": "Adalbert-Stifter-Straße 5, 82031 Grünwald, Deutschland",
+      "email": "o.seeberger@outlook.com",
+      "phone": "+49 159 050 90 161",
+      "businessFormTitle": "Geschäftsform",
+      "businessFormText": "Einzelunternehmen gemäß deutschem Handelsrecht",
+      "vatTitle": "Umsatzsteuer-Identifikationsnummer",
+      "vatText": "Kleinunternehmer gemäß § 19 Abs. 1 UStG. Umsatzsteuerbefreiung.",
+      "liabilityTitle": "Haftung für eigene Inhalte",
+      "liabilityText": "Die Inhalte dieser Website werden mit größter Sorgfalt erstellt. Für Korrektheit, Vollständigkeit und Aktualität keine Gewähr. Nach § 7 Abs. 1 TMG bin ich für eigene Inhalte verantwortlich. Nach § 7 Abs. 2-3 TMG bin ich nicht verpflichtet, fremde Informationen zu überwachen oder nach rechtswidrigen Aktivitäten zu forschen, sofern keine konkrete Anhaltspunkte vorhanden sind.",
+      "linksTitle": "Haftung für Links",
+      "linksText": "Diese Website enthält Links zu externen Websites Dritter. Für deren Inhalte bin ich nicht verantwortlich und übernehme keine Haftung. Die Seiteninhalte werden nur zum Zeitpunkt der Link-Erstellung überprüft. Eine Überprüfung auf Änderungen erfolgt nicht.",
+      "copyrightTitle": "Urheberrecht",
+      "copyrightText": "Alle Inhalte und Werke auf dieser Website unterliegen deutschem Urheberrecht. Vervielfältigung, Bearbeitung, Verbreitung und Verwertung außerhalb der Grenzen des Urheberrechts sind untersagt. Dies gilt auch für Datenbanken und Quelltexte.",
+      "disclaimerTitle": "Allgemeiner Haftungsausschluss",
+      "disclaimerText": "Alle Inhalte werden im Ist-Zustand bereitgestellt. Es wird keine Haftung für Fehler, Ausfallzeiten oder Datenverlust übernommen."
+    },
+    "privacy": {
+      "title": "Datenschutzerklärung",
+      "lastUpdated": "Zuletzt aktualisiert: 23. Juli 2026",
+      "toc": [
+        { "id": "controller", "label": "Verantwortlicher" },
+        { "id": "scope", "label": "Umfang der Verarbeitung" },
+        { "id": "legal", "label": "Rechtsgrundlagen" },
+        { "id": "processors", "label": "Auftragsverarbeiter" },
+        { "id": "cookies", "label": "Cookies und Tracking" },
+        { "id": "retention", "label": "Speicherdauer" },
+        { "id": "rights", "label": "Betroffenenrechte" },
+        { "id": "thirdCountries", "label": "Datenübermittlung" },
+        { "id": "contact", "label": "Kontakt" }
+      ],
+      "controllerTitle": "1. Verantwortlicher",
+      "controllerText": "Oskar Seeberger, Adalbert-Stifter-Straße 5, 82031 Grünwald, Deutschland, o.seeberger@outlook.com",
+      "scopeTitle": "2. Umfang der Datenverarbeitung",
+      "scopeIntro": "Personenbezogene Daten werden nur mit Rechtsgrundlage verarbeitet:",
+      "scopeItems": [
+        "Kontaktdaten aus Anfragen (Name, E-Mail, Nachricht)",
+        "Rechnungs- und Zahlungsdaten (Stripe)",
+        "Nutzungsdaten zur Optimierung (PostHog)",
+        "Geschäftskommunikation (Attio, Resend)"
+      ],
+      "legalTitle": "3. Rechtsgrundlagen (DSGVO)",
+      "legalItems": [
+        "Art. 6 Abs. 1 Buchst. b DSGVO: Erfüllung von Vertragsverpflichtungen",
+        "Art. 6 Abs. 1 Buchst. f DSGVO: Berechtigte Interessen (Verbesserung, Sicherheit)",
+        "Art. 6 Abs. 1 Buchst. c DSGVO: Rechtliche Verpflichtungen"
+      ],
+      "processorsTitle": "4. Auftragsverarbeiter und Empfänger",
+      "vercelTitle": "Vercel Inc. (Hosting)",
+      "vercelText": "Standort: Frankfurt a.M. Speichert Server-Logs, Cookies, Session-Daten. Zertifizierter Auftragsverarbeiter mit Standardvertragsklauseln.",
+      "stripeTitle": "Stripe Payments Europe Ltd. (Zahlungen)",
+      "stripeText": "Standort: Dublin, Irland. Verarbeitet Zahlungsdaten, Rechnungen, Abos. PCI-DSS zertifiziert. Stripe behält Bestandsdaten für Compliance-Anforderungen.",
+      "posthogTitle": "PostHog Inc. (Analytics)",
+      "posthogText": "Standort: San Francisco. Pseudonymisierte Nutzungsmetriken. Keine Zuordnung zu Personen. Daten können gelöscht werden.",
+      "attioTitle": "Attio (CRM)",
+      "attioText": "Enterprise-Workspace für Geschäftskontakte und Projektverwaltung.",
+      "resendTitle": "Resend (E-Mail)",
+      "resendText": "Transaktions-E-Mails wie Bestätigungen und Benachrichtigungen.",
+      "cookiesTitle": "5. Cookies und Tracking",
+      "cookiesText": "Diese Website nutzt nur technisch notwendige Cookies und PostHog Analytics (pseudonymisiert):",
+      "cookieTypes": [
+        "Technische Cookies: Sitzung, Authentifizierung",
+        "PostHog: Anonyme Nutzungsdaten (Seitenaufrufe, Klicks, Browser)"
+      ],
+      "retentionTitle": "6. Speicherdauer",
+      "retentionItems": [
+        "Kontaktdaten: Nach Anfrage-Abschluss oder auf Anfrage gelöscht",
+        "Zahlungsdaten: Nach Aufbewahrungspflichten (bis 10 Jahre)",
+        "Analytics: Nach 12 Monaten automatisch gelöscht"
+      ],
+      "rightsTitle": "7. Rechte der betroffenen Person",
+      "rightsItems": [
+        "Auskunftsrecht (Art. 15 DSGVO)",
+        "Berichtigungsrecht (Art. 16 DSGVO)",
+        "Löschungsrecht (Art. 17 DSGVO)",
+        "Einschränkungsrecht (Art. 18 DSGVO)",
+        "Datenportabilität (Art. 20 DSGVO)",
+        "Widerspruchsrecht (Art. 21 DSGVO)"
+      ],
+      "thirdCountriesTitle": "8. Datenübermittlung in Drittländer",
+      "thirdCountriesText": "Vercel, PostHog und Stripe haben Sitz außerhalb der EU. Übermittlungen erfolgen unter Standardvertragsklauseln (Art. 44-49 DSGVO).",
+      "contactTitle": "9. Kontakt und Beschwerderecht",
+      "contactText": "Bei Fragen: o.seeberger@outlook.com. Beschwerde an Bayerisches Landesamt für Datenschutzaufsicht (www.lda.bayern.de)."
+    },
+    "terms": {
+      "title": "Allgemeine Geschäftsbedingungen (AGB)",
+      "lastUpdated": "Zuletzt aktualisiert: 23. Juli 2026",
+      "toc": [
+        { "id": "scope", "label": "Geltungsbereich" },
+        { "id": "services", "label": "Leistungsumfang" },
+        { "id": "pricing", "label": "Preise und Zahlungen" },
+        { "id": "term", "label": "Laufzeit und Beendigung" },
+        { "id": "performance", "label": "Leistungserbringung" },
+        { "id": "ip", "label": "Geistiges Eigentum" },
+        { "id": "liability", "label": "Haftung" },
+        { "id": "law", "label": "Anwendbares Recht" }
+      ],
+      "scopeTitle": "1. Geltungsbereich",
+      "scopeText": "Diese AGB regeln die vertragliche Beziehung zwischen LevIQ (Oskar Seeberger) und Unternehmern, Freiberuflern und Organisationen (B2B nur). Verbraucherschutzvorschriften finden keine Anwendung.",
+      "servicesTitle": "2. Leistungsumfang",
+      "servicesText": "LevIQ erbringt spezialisierte Consulting-Services:",
+      "servicesItems": [
+        "KI-Chatbot-Entwicklung und -Integration",
+        "SEO/GEO-Services und digitale Sichtbarkeit",
+        "Beratung zu KI-Technologien",
+        "Digitale Transformation und Prozessoptimierung",
+        "Weitere auf Anfrage abgestimmte Dienstleistungen"
+      ],
+      "pricingTitle": "3. Preise und Zahlung",
+      "pricingIntro": "Leistungen werden nach Basis-Paket mit monatlichem Retainer-Modell abgerechnet.",
+      "pricingItems": [
+        "Rechnungsstellung: Monatlich voraus",
+        "Zahlungsart: Stripe mit Genehmigung für Abbuchung",
+        "Zahlungsziel: Sofort nach Rechnungsstellung",
+        "Verzug: 8% p.a. Verzugszinsen",
+        "Alle Preise netto, zzgl. gesetzlicher USt. (falls anwendbar)"
+      ],
+      "termTitle": "4. Vertragslaufzeit und Beendigung",
+      "termItems": [
+        "Mindestlaufzeit: Nach Vereinbarung (typisch monatlich)",
+        "Kündigung: 30 Tage zum Monatsende beiderseitig",
+        "Außerordentliche Kündigung: Bei materieller Vertragsverletzung",
+        "Beendigung automatischer Zahlungen: Nach Kündigungsfrist"
+      ],
+      "performanceTitle": "5. Leistungserbringung",
+      "performanceText": "Leistungen werden nach besten Kräften gemäß Branchenstandards erbracht. Einzelheiten in Engagement Letters oder Statements of Work.",
+      "ipTitle": "6. Geistiges Eigentum",
+      "ipItems": [
+        "Auftragnehmer: Urheberrecht an Methoden, Vorlagen, Konzepten",
+        "Kundenspezifische Lösungen: Gehen an Auftraggeber über",
+        "Auftragnehmer: Darf anonymisierte Fallstudien verwenden"
+      ],
+      "liabilityTitle": "7. Haftung und Gewährleistung",
+      "liabilityItems": [
+        "Haftung: Nur für Vorsatz und grobe Fahrlässigkeit",
+        "Einfache Fahrlässigkeit: Haftung begrenzt auf Zahlbetrag 12 Monate",
+        "Datenverlust: Keine Haftung",
+        "Indirekte Schäden: Ausgeschlossen",
+        "Erfolgsgarantie: Wird nicht übernommen"
+      ],
+      "lawTitle": "8. Anwendbares Recht",
+      "lawText": "Diese AGB unterliegen deutschem Recht (außer Kollisionsrecht). Gerichtsstand: München, Bayern, Deutschland."
+    },
+    "withdrawal": {
+      "title": "Widerrufsbelehrung",
+      "lastUpdated": "Zuletzt aktualisiert: 23. Juli 2026",
+      "notice": "LevIQ erbringt ausschließlich B2B-Services (Business-to-Business).",
+      "noticeDetail": "Das gesetzliche Widerrufsrecht nach § 355 BGB findet keine Anwendung. LevIQ arbeitet nur mit Unternehmern, Freiberuflern und Organisationen.",
+      "toc": [
+        { "id": "noConsumer", "label": "Keine Verbraucherschutzrechte" },
+        { "id": "termination", "label": "Kündigungsrecht stattdessen" },
+        { "id": "payments", "label": "Zahlungsverpflichtungen" },
+        { "id": "stripe", "label": "Zahlungsabwicklung" },
+        { "id": "contact", "label": "Kontakt und Beschwerde" }
+      ],
+      "noConsumerTitle": "1. Keine Verbraucherschutzrechte",
+      "noConsumerText": "Ein Verbraucher ist eine Privatperson, die für private Zwecke handelt. LevIQ verarbeitet keine Verbraucherverträge. Alle Verträge sind B2B.",
+      "terminationTitle": "2. Kündigungsrecht (Ersatz für Widerruf)",
+      "terminationText": "Statt Widerrufsrecht gilt:",
+      "terminationItems": [
+        "Kündigungsrecht: 30 Tage zum Monatsende",
+        "Keine Rückerstattung: Bereits gezahlte Gebühren sind endgültig",
+        "Sofortige Deaktivierung: Services werden nach Kündigungsfrist beendet"
+      ],
+      "paymentsTitle": "3. Zahlungsverpflichtungen",
+      "paymentsText": "Bei Monats-Retainern ist eine Zahlung immer fällig, auch wenn Services nicht in Anspruch genommen werden. Dies ist Bestandteil der Vereinbarung.",
+      "stripeTitle": "4. Zahlungsabwicklung via Stripe",
+      "stripeText": "Zahlungen erfolgen über Stripe. Der Kunde autorisiert wiederkehrende Abbuchungen. Bei Reklamationen: o.seeberger@outlook.com oder Stripe Support.",
+      "contactTitle": "5. Kontakt und Beschwerde",
+      "contactText": "Für Fragen oder Beschwerden kontaktieren Sie: o.seeberger@outlook.com, +49 159 050 90 161. Bayerische Datenschutzbehörde: www.lda.bayern.de"
+    }
+  },
   "Footer": {
     "tagline": "Verschönern Sie Ihre App mit efferd.",
     "resourcesTitle": "Ressourcen",

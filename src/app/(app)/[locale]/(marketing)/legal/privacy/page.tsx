@@ -1,14 +1,34 @@
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { LegalPageLayout } from "@/components/legal/legal-page-layout";
+import Link from "next/link";
 
 export const metadata = {
-  title: "Datenschutzerklärung",
-  description: "Informationen zur Verarbeitung personenbezogener Daten",
+  title: "Datenschutzerklärung | LevIQ",
+  description: "Datenschutzrichtlinie und Informationen zur Datenverarbeitung",
 };
 
-function PrivacyDE() {
+function Section({
+  id,
+  title,
+  children,
+}: {
+  id?: string;
+  title: string;
+  children: React.ReactNode;
+}) {
   return (
-    <div className="space-y-6">
+    <section id={id} className="space-y-3">
+      <h2 className="text-lg font-semibold">{title}</h2>
+      <div className="text-sm leading-relaxed text-foreground">{children}</div>
+    </section>
+  );
+}
+
+function PrivacyDE() {
+  const t = useTranslations("Legal.privacy");
+
+  return (
+    <div className="space-y-8">
       <section className="space-y-3">
         <h2 className="text-lg font-semibold">1. Verantwortlicher für die Datenverarbeitung</h2>
         <p className="text-sm">
@@ -280,8 +300,10 @@ function PrivacyDE() {
 }
 
 function PrivacyEN() {
+  const t = useTranslations("Legal.privacy");
+
   return (
-    <div className="space-y-6">
+    <div className="space-y-8">
       <section className="space-y-3">
         <h2 className="text-lg font-semibold">1. Responsible Party</h2>
         <p className="text-sm">
@@ -547,10 +569,25 @@ function PrivacyEN() {
 export default function PrivacyPage() {
   const locale = useLocale();
   const isGerman = locale === "de";
+  const t = useTranslations("Legal.privacy");
+
+  const toc = [
+    { id: "controller", label: t("toc.0.label") },
+    { id: "scope", label: t("toc.1.label") },
+    { id: "legal", label: t("toc.2.label") },
+    { id: "processors", label: t("toc.3.label") },
+    { id: "cookies", label: t("toc.4.label") },
+    { id: "retention", label: t("toc.5.label") },
+    { id: "rights", label: t("toc.6.label") },
+    { id: "thirdCountries", label: t("toc.7.label") },
+    { id: "contact", label: t("toc.8.label") },
+  ];
 
   return (
     <LegalPageLayout
-      title={isGerman ? "Datenschutzerklärung" : "Privacy Policy"}
+      title={t("title")}
+      lastUpdated={t("lastUpdated")}
+      toc={toc}
     >
       {isGerman ? <PrivacyDE /> : <PrivacyEN />}
     </LegalPageLayout>
